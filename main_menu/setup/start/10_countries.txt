@@ -15,7 +15,17 @@ current_age = age_1_traditions
 countries = {
 	countries = {
 
-	
+	# Amazonia - AMZ
+
+	# Arcadia - ARC
+
+	# Hadia - HAD
+
+	# Jiyu - JIY
+
+	# Neu Nurnberg - NNB
+
+	# New Burgundy - NBY
 
 }
 }

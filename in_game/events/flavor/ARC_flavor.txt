@@ -10,8 +10,17 @@ arc_flavor.1 = {
     fire_only_once = yes
 	major = yes
 
+    immediate = {
+        location:stadacona = { 
+            add_pop = {culture = root.culture religion = root.religion type = pop_type:peasants size = 24.0}
+            add_pop = {culture = root.culture religion = root.religion type = pop_type:burghers size = 2.0}
+        }
+    }
+
     option = {
         name = arc_flavor.1.a
         activate_situation = situation:dusk_of_the_old_world
+
+
     }
 }

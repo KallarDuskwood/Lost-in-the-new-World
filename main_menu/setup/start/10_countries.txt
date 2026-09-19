@@ -1,4 +1,4 @@
-current_age = age_1_traditions
+current_age = age_3_discovery
 
 # own_control_core
 # own_control_integrated
@@ -30,7 +30,14 @@ countries = {
 
 			own_control_core = {
 				stadacona andawaohie ontaretse ahwendoe ondaonnentakwi aunona taoondewake kouate
+				kikonteku kamitsisit etchemin wachilmezi 
+				rimouski mitis amqui causapscal kakouna molsemtekw kamouraska
+				tadoussac
+				pessamit essipit
+				matapedia
 			}
+
+			starting_technology_level = 3
 
 			include = "expl_world"
 

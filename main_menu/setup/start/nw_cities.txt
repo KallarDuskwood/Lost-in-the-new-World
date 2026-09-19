@@ -1,0 +1,8 @@
+locations = {
+
+    ### Arcadia
+    stadacona = { rank = city town_setup = empty_town }
+    tadoussac = { rank = town town_setup = empty_town }
+    matapedia = { rank = town town_setup = empty_town }
+
+}

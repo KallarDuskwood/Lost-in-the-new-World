@@ -11,17 +11,36 @@ nw_dusk_of_the_old_world.1 = {
 		10 = exterior
 	}
 
+    immediate = {
+        
+        hidden_effect = {
+            ### define which culture the population will belong to
+            random_list = {
+                10 = { culture:french = {save_scope_as = target_culture} }
+                10 = { culture:english = {save_scope_as = target_culture} }
+                10 = { culture:castilian = {save_scope_as = target_culture} }
+                10 = { culture:scottish = {save_scope_as = target_culture} }
+                10 = { culture:danube_bavarian = {save_scope_as = target_culture} }
+            }
+
+        }
+    }
+
     option = {
         name = dusk_of_the_old_world.1.a
-        random_owned_location = {
 
+        random_owned_location = {
+            limit = {
+                is_port = yes
+				modifier:harbor_suitability > 0.5
+            }
             random_list = {
-				1 = { add_pop = {culture = root.culture religion = root.religion type = pop_type:peasants size = 0.2} }
-				1 = { add_pop = {culture = root.culture religion = root.religion type = pop_type:peasants size = 0.8} }
-				1 = { add_pop = {culture = root.culture religion = root.religion type = pop_type:peasants size = 1.2} }
-				1 = { add_pop = {culture = root.culture religion = root.religion type = pop_type:peasants size = 2.0} }
-				1 = { add_pop = {culture = root.culture religion = root.religion type = pop_type:peasants size = 2.2} }
-				1 = { add_pop = {culture = root.culture religion = root.religion type = pop_type:peasants size = 3.0} }
+				50 = { add_pop = {culture = scope:target_culture religion = root.religion type = pop_type:peasants size = 0.4} }
+				30 = { add_pop = {culture = scope:target_culture religion = root.religion type = pop_type:peasants size = 0.8} }
+				10 = { add_pop = {culture = scope:target_culture religion = root.religion type = pop_type:peasants size = 1.6} }
+				5 = { add_pop = {culture = scope:target_culture religion = root.religion type = pop_type:peasants size = 3.2} }
+				3 = { add_pop = {culture = scope:target_culture religion = root.religion type = pop_type:peasants size = 4.8} }
+				2 = { add_pop = {culture = scope:target_culture religion = root.religion type = pop_type:peasants size = 6.4} }
 			}
 
             

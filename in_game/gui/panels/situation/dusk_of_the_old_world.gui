@@ -27,6 +27,26 @@ situation_panel = {
 
 	blockoverride "situation_panel_main_content" {
 
+		# Gameplay Advice
+		situation_card_common = {
+			blockoverride "card_datacontext" {}
+			blockoverride "common_header_icon_texture" {
+				texture = "gfx/interface/icons/subject_types/colonial_nation.dds"
+			}
+			blockoverride "common_header_text" {
+				text = "NW_DUSK_OF_THE_OLD_WORLD_INFO_HEADER"
+			}
+			blockoverride "common_bottom_content" {
+				text_multi = {
+					layoutpolicy_horizontal = expanding
+					autoresize = yes
+					raw_text = "NW_DUSK_OF_THE_OLD_WORLD_INFO_TEXT"
+				}
+				expand = {}
+			}
+			
+		}
+
 		# End Requirements
 		situation_card_expandable = {
 			blockoverride "header_button_onclick" {
@@ -64,5 +84,26 @@ situation_panel = {
 			}
 		}
 
-		situation_info_list_dump_card = {}
+		# Building Explanation
+		situation_card_common = {
+			blockoverride "card_datacontext" {}
+			blockoverride "common_header_icon_texture" {
+				texture = "gfx/interface/icons/subject_types/imperial_free_city.dds"
+			}
+			blockoverride "common_header_text" {
+				text = "NW_DUSK_OF_THE_OLD_WORLD_DURING_EVENT_INFO_HEADER"
+			}
+			blockoverride "common_bottom_content" {
+				text_multi = {
+					layoutpolicy_horizontal = expanding
+					autoresize = yes
+					raw_text = "NW_DUSK_OF_THE_OLD_WORLD_DURING_EVENT_INFO_TEXT"
+				}
+				expand = {}
+			}
+			
+		}
+		
+
+		
 }

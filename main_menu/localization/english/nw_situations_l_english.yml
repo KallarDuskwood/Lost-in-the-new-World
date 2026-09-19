@@ -2,5 +2,12 @@
   ### GENERAL
   END_CONDITION: "End Condition"
 
-  ### Duskw of the old world
+  ### Dusk of the old world
+  dusk_of_the_old_world: "Dusk of the Old World"
+  dusk_of_the_old_world_desc: "The world is fading into darkness as the old civilizations crumble. A few ships and revugees still arive from time to time but the future is uncertain."
   NW_DUSK_OF_THE_OLD_WORLD_END_CONDITION_TEXT: "When the old world has taken its last breath no more ships will arive and there will be silence."
+  dusk_of_the_old_world_can_end_tt: "$NW_DUSK_OF_THE_OLD_WORLD_END_CONDITION_TEXT$"
+  NW_DUSK_OF_THE_OLD_WORLD_INFO_HEADER: "Dusk of the Old World Gameplay Advice"
+  NW_DUSK_OF_THE_OLD_WORLD_INFO_TEXT: "#E This Situation aims to provide players with much needed population and resources. Refugees will always arive in provinces that have at least 0.5 [harbor_capacity_with_icon|e]. To attract them, it is recommended to have a harbor related building like a [ShowBuildingTypeName('wharf')] or a [ShowBuildingTypeName('protected_harbor')]. Often investing pays of more in the long term. \n\nUse this as much as possible.#!"
+  NW_DUSK_OF_THE_OLD_WORLD_DURING_EVENT_INFO_HEADER: "What can we do?"
+  NW_DUSK_OF_THE_OLD_WORLD_DURING_EVENT_INFO_TEXT: "Curing this period we have acces to a special buildings based on the nation we play. \n\n[ShowBuildingTypeName('cathedral')]"

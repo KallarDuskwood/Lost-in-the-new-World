@@ -1,0 +1,4 @@
+market_manager = {
+	#Northern America
+	add_market = stadacona
+}

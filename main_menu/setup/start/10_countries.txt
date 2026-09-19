@@ -15,15 +15,93 @@ current_age = age_1_traditions
 countries = {
 	countries = {
 
-	# Amazonia - AMZ
+		# Amazonia - AMZ
+		AMZ = {
 
-	# Hadia - HAD
+			own_control_core = {
+				ariste lokono araguari mazagao arua_amazon nheengaiba mariocai
+				ananatuba anajas curumu
+				oiampi wayampi paru kuruaya 
+			}
 
-	# Jiyu - JIY
+			include = "expl_world"
 
-	# Neu Nurnberg - NNB
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
 
-	# New Burgundy - NBY
+			country_rank = rank_duchy
+			capital = mazagao
+
+		}
+
+		# Haida - HAD
+		HAD = {
+
+			own_control_core = {
+				kiis_gwaay gwaay_haanas sm_algyax
+				hinyaa keex shtax_heen
+				xutsnoowu xunaa shee_t_ika
+			}
+
+			include = "expl_world"
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+
+			country_rank = rank_duchy
+			capital = kiis_gwaay
+
+		}
+
+		# Jiyu - JIY
+		JIY = {
+
+			own_control_core = {
+				stlpulmsh chehalis chala_at sklallam twana makah
+				puyallup kittikas duwamish snohomish skagit nisqually
+				saanich stz_uminus ditidaht pentlatch ucluelet
+			}
+
+			include = "expl_world"
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+
+			country_rank = rank_duchy
+			capital = puyallup
+
+		}
+
+		# Neu Nurnberg - NNB
+
+		# New Burgundy - NBY
+		NBY = {
+
+			own_control_core = {
+				chana mbegua timbu ituzaingo tuvicha_mini yaros bohan carapachay ombu yaguari_guazu gualeguay nogoya grande_lagoon
+			}
+
+			include = "expl_world"
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+
+			country_rank = rank_duchy
+			capital = ituzaingo
+
+		}
 
 		# Arcadia - ARC
 		ARC = {
@@ -42,6 +120,28 @@ countries = {
 
 			country_rank = rank_duchy
 			capital = stadacona
+
+		}
+
+		# Haiti - HTI
+		HTI = {
+
+			own_control_core = {
+				jaragua guanabo cahay guacayakima haniguayagua yaguana
+				marien iguamuco guahaba tortuga baynoa
+				samana ciguayo
+			}
+
+			include = "expl_world"
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+
+			country_rank = rank_duchy
+			capital = jaragua
 
 		}
 

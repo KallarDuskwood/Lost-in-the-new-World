@@ -1,0 +1,17 @@
+﻿namespace = arc_flavor
+
+arc_flavor.1 = {
+    type = country_event
+    title = arc_flavor.1.title
+    desc = arc_flavor.1.desc
+
+    outcome = neutral
+
+    fire_only_once = yes
+	major = yes
+
+    option = {
+        name = arc_flavor.1.a
+        activate_situation = situation:dusk_of_the_old_world
+    }
+}

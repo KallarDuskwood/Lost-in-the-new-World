@@ -1,0 +1,15 @@
+﻿nw_arcadian = {
+    language = french_dialect
+
+    color = rgb { 46 0 108 }
+
+    tags = { french_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		french = kindred
+	}
+
+    culture_groups = {
+		french_group
+	}
+}

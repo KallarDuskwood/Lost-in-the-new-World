@@ -17,8 +17,6 @@ countries = {
 
 	# Amazonia - AMZ
 
-	# Arcadia - ARC
-
 	# Hadia - HAD
 
 	# Jiyu - JIY
@@ -27,5 +25,25 @@ countries = {
 
 	# New Burgundy - NBY
 
-}
+		# Arcadia - ARC
+		ARC = {
+
+			own_control_core = {
+				stadacona andawaohie ontaretse ahwendoe ondaonnentakwi aunona taoondewake kouate
+			}
+
+			include = "expl_world"
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+
+			country_rank = rank_duchy
+			capital = stadacona
+
+		}
+
+	}
 }

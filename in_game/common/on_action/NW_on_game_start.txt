@@ -1,0 +1,12 @@
+﻿on_game_start = {
+	on_actions = { nw_trigger_start_events }
+}
+
+nw_trigger_start_events = {	
+    effect = {
+        c:ARC = {
+			trigger_event_silently = arc_flavor.1 ### Startup event for Arcadia
+            set_variable = old_world_colony
+		}
+    }
+}

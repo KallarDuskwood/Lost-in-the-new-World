@@ -1,0 +1,38 @@
+dusk_of_the_old_world = {
+    monthly_spawn_chance = 0
+
+    can_start = {
+		#Activated by event
+		always = no
+	}
+
+    can_end = {
+		#If the situation has reached the second phase and treaty relevance has been depleted
+		custom_tooltip = {
+			text = dusk_of_the_old_world_can_end_tt
+			has_global_variable = dusk_of_the_old_world_ended
+		}
+	}
+
+    visible = {
+        capital ?= {
+			continent = continent:america
+		}
+        has_variable = old_world_colony
+    }
+
+    on_monthly = {
+        every_country = {
+            
+            random_list = {
+
+                100 = { trigger_event_non_silently = nw_dusk_of_the_old_world.1 }
+                100 = { trigger_event_non_silently = nw_dusk_of_the_old_world.1 }
+            }
+        }
+
+    }
+
+    
+
+}

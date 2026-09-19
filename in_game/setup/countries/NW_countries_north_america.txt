@@ -1,0 +1,8 @@
+### CArcadia ###
+ARC = {
+    color = hsv360 { 220 80 68 }
+
+    culture_definition = nw_arcadian
+    religion_definition = catholic
+
+}

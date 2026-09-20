@@ -2,3 +2,29 @@
   arc_flavor.1.title: "The cold North"
   arc_flavor.1.desc: "Arcadia was the first colony founded by the Kingdom of France. It rests in the northern parts of America revolving around Quebec. The colony became home to many refugees wanting to escape the troubles of Europe. The harsh wilderness made settling the area difficult but the frontier colonists established themselves with the help of local native tribes. They are highly dependent on shipments from their home to sustain themselves. France is one of the last Kingdoms to hold out in Europe even though it is on its last legs barely fighting for survival."
   arc_flavor.1.a: "We will prevail"
+
+  ### Amazonia
+  amz_flavor.1.title: "The Heart of the Amazon"
+  amz_flavor.1.desc: "Portugal was a nation of great naval experience. Reliant on Trade for their needs they were early adopters of voyages to the new World. When the dark ages struck they were among the first to successfully establish themselves in the New World.\n\nTheir Crown Colony of Amazonia claimed hegemony over the southern continent. Even though they had only settled a fraction of the land their special Title imbued their citizens with pride for their motherland. It was one of the view colonies to be stable and wealthy enough to send back aid to the dying old world."
+  amz_flavor.1.a: "Every cleared path and charted route reduces the isolation of our troubled estate."
+  
+  amz_flavor.2.title: "The Port of Nova Lisboa"
+  amz_flavor.2.entry: "$amz_flavor.2.title$"
+  amz_flavor.2.desc: "The port of Nova Lisboa became a crucial hub for trade and naval operations in Amazonia. Its strategic location allowed for efficient control over the surrounding waters and facilitated the export of valuable resources back to Portugal. The settlers in Nova Lisboa enjoyed relative prosperity and stability, making it one of the most important settlements in the colony."
+  amz_flavor.2.a: "The jewel of the Crown"
+
+  amz_flavor.3.title: "The City of Nova Porto"
+  amz_flavor.3.entry: "$amz_flavor.3.title$"
+  amz_flavor.3.desc: "Nova Porto emerged as a significant urban center in Amazonia, benefiting from its strategic location and the influx of settlers. The city became a focal point for cloth production after the island was transformed and massive plantations for cotton were established."
+  amz_flavor.3.a: "Harvesting the riches of the Amazon"
+
+  amz_flavor.4.title: "The City of Nova Faro"
+  amz_flavor.4.entry: "$amz_flavor.4.title$"
+  amz_flavor.4.desc: "Nova Faro developed as an important settlement in Amazonia, serving as a key frontier outpost for the colony. From here explorers and settlers could venture further into the interior, expanding the reach and influence of the Crown."
+  amz_flavor.4.a: "Expanding the frontier"
+
+  amz_flavor.5.title: "Expanding our Reach"
+  amz_flavor.5.entry: "$amz_flavor.5.title$"
+  amz_flavor.5.desc: "Amazonia continued to expand its influence in the New World, integrating new territories and consolidating its power. The colony's growth was marked by the establishment of new settlements along the coast."
+  amz_flavor.5.a: "Establish the settlements"
+  amz_flavor.5.b: "it is too expensive"

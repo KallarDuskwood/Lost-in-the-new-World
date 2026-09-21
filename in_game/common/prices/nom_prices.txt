@@ -1,0 +1,11 @@
+nom_send_gold = {
+	gold = 300
+}
+
+nom_send_manpower = {
+	manpower = 1
+}
+
+nom_send_sailors = {
+	sailors = 0.6
+}

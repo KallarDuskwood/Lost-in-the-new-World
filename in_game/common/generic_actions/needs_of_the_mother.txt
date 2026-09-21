@@ -1,0 +1,149 @@
+nom_send_gold = {
+	type = situation
+	potential = {
+	}
+	allow = {
+		scope:actor ?= {
+			gold >= 10
+		}
+	}
+
+	automation_tick = never
+	automation_tick_frequency = 12
+	cooldown = { type = needs_of_the_mother_shared_cooldown months = 8 }
+
+	price = price:nom_send_gold
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:needs_of_the_mother = this
+			situation_is_active = yes
+		}
+	}
+
+	effect = {
+		situation:needs_of_the_mother = {
+			change_variable = {
+				name = nom_support
+				add = 10
+			}
+			clamp_variable = {
+				name = nom_support
+				max = 100
+				min = 0
+			}
+			needs_of_the_mother_update_milestones = yes
+		}
+	}
+
+	ai_will_do = {
+		add = 25
+	}
+}
+
+nom_send_manpower = {
+	type = situation
+	potential = {
+	}
+	allow = {
+		scope:actor ?= {
+			manpower >= 1
+		}
+	}
+
+	automation_tick = never
+	automation_tick_frequency = 12
+	cooldown = { type = needs_of_the_mother_shared_cooldown months = 8 }
+
+	price = price:nom_send_manpower
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:needs_of_the_mother = this
+			situation_is_active = yes
+		}
+	}
+
+	effect = {
+		situation:needs_of_the_mother = {
+			change_variable = {
+				name = nom_support
+				add = 5
+			}
+			clamp_variable = {
+				name = nom_support
+				max = 100
+				min = 0
+			}
+			change_variable = {
+				name = nom_manpower_sent
+				add = 1000
+			}
+			needs_of_the_mother_update_milestones = yes
+		}
+	}
+
+	ai_will_do = {
+		add = 18
+	}
+}
+
+nom_send_sailors = {
+	type = situation
+	potential = {
+	}
+	allow = {
+		scope:actor ?= {
+			sailors >= 0.6
+		}
+	}
+
+	automation_tick = never
+	automation_tick_frequency = 12
+	cooldown = { type = needs_of_the_mother_shared_cooldown months = 8 }
+
+	price = price:nom_send_sailors
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:needs_of_the_mother = this
+			situation_is_active = yes
+		}
+	}
+
+	effect = {
+		situation:needs_of_the_mother = {
+			change_variable = {
+				name = nom_support
+				add = 3
+			}
+			clamp_variable = {
+				name = nom_support
+				max = 100
+				min = 0
+			}
+			change_variable = {
+				name = nom_sailors_sent
+				add = 600
+			}
+			needs_of_the_mother_update_milestones = yes
+		}
+	}
+
+	ai_will_do = {
+		add = 14
+	}
+}
+

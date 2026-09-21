@@ -7,7 +7,6 @@ dusk_of_the_old_world = {
 	}
 
     can_end = {
-		#If the situation has reached the second phase and treaty relevance has been depleted
 		custom_tooltip = {
 			text = dusk_of_the_old_world_can_end_tt
 			has_global_variable = dusk_of_the_old_world_ended

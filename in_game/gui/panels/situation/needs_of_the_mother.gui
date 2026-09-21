@@ -1,0 +1,133 @@
+situation_panel = {
+	blockoverride "situation_panel_image" {
+		background = {
+			texture = "gfx/interface/illustrations/situation/needs_of_the_mother.dds"
+		}
+	}
+
+	# MANPOWER SENT
+	blockoverride "situation_header_left" {
+		icon = {
+			size = {32 32}
+			texture = "gfx/interface/icons/location_icons/manpower.dds"
+		}
+
+		vbox = {
+			layoutpolicy_horizontal = expanding
+			text_single = {
+				layoutpolicy_horizontal = expanding
+				text = "nom_manpower_sent_label"
+				default_format = "#subtle_name"
+			}
+
+			text_single = {
+				layoutpolicy_horizontal = expanding
+				fontsize = 13
+				raw_text = "[FixedPointToInt(SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('nom_manpower_sent').GetValue)]"
+			}
+		}
+		expand = {}
+	}
+
+	# SAILORS SENT
+	blockoverride "situation_header_right" {
+		expand = {}
+		vbox = {
+			layoutpolicy_horizontal = expanding
+			text_single = {
+				layoutpolicy_horizontal = expanding
+				align = right|nobaseline
+				text = "nom_sailors_sent_label"
+				default_format = "#subtle_name"
+			}
+
+			text_single = {
+				layoutpolicy_horizontal = expanding
+				align = right|nobaseline
+				raw_text = "[FixedPointToInt(SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('nom_sailors_sent').GetValue)]"
+			}
+		}
+
+		icon = {
+			size = {32 32}
+			texture = "gfx/interface/icons/location_icons/sailors.dds"
+		}
+	}
+
+	blockoverride "situation_panel_main_content" {
+		vbox = {
+			layoutpolicy_horizontal = expanding
+			spacing = 12
+			margin = { 12 12 }
+
+			hbox = {
+				layoutpolicy_horizontal = expanding
+				spacing = 10
+
+				vbox = {
+					layoutpolicy_horizontal = expanding
+					spacing = 4
+
+					text_single = {
+						layoutpolicy_horizontal = expanding
+						align = center
+						text = "nom_support_label"
+					}
+
+					text_single = {
+						layoutpolicy_horizontal = expanding
+						align = center
+						raw_text = "[FixedPointToInt(SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('nom_support').GetValue)]%"
+					}
+				}
+
+				expand = {}
+			}
+
+			progressbar = {
+				layoutpolicy_horizontal = expanding
+				size = { -1 18 }
+				min = 0
+				max = 100
+				value = "[FixedPointToFloat(SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('nom_support').GetValue)]"
+				progresstexture = "gfx/interface/progressbars/progress_bar_blue_alt.dds"
+				noprogresstexture = "gfx/interface/progressbars/progress_black.dds"
+				texture_density = 2
+				spriteType = Corneredstretched
+				spriteborder = { 12 0 }
+			}
+
+			hbox = {
+				layoutpolicy_horizontal = expanding
+				spacing = 8
+
+				text_single = {
+					text = "nom_threshold_25"
+					visible = "[GreaterThanOrEqualTo_CFixedPoint(SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('nom_support').GetValue, '(CFixedPoint)25')]"
+				}
+
+				text_single = {
+					text = "nom_threshold_50"
+					visible = "[GreaterThanOrEqualTo_CFixedPoint(SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('nom_support').GetValue, '(CFixedPoint)50')]"
+				}
+
+				text_single = {
+					text = "nom_threshold_75"
+					visible = "[GreaterThanOrEqualTo_CFixedPoint(SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('nom_support').GetValue, '(CFixedPoint)75')]"
+				}
+
+				text_single = {
+					text = "nom_threshold_100"
+					visible = "[GreaterThanOrEqualTo_CFixedPoint(SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('nom_support').GetValue, '(CFixedPoint)100')]"
+				}
+			}
+
+			text_multi = {
+				layoutpolicy_horizontal = expanding
+				size = { -1 80 }
+				multiline = yes
+				text = "needs_of_the_mother_desc"
+			}
+		}
+	}
+}

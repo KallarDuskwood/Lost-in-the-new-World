@@ -1,22 +1,82 @@
-﻿needs_of_the_mother = {
-    monthly_spawn_chance = 0
+needs_of_the_mother = {
+	monthly_spawn_chance = 0
+	
 
-    can_start = {
-		#Activated by event
+	can_start = {
 		always = no
 	}
 
-    can_end = {
-		#If the situation has reached the second phase and treaty relevance has been depleted
+	can_end = {
 		custom_tooltip = {
 			text = needs_of_the_mother_can_end_tt
 			has_global_variable = needs_of_the_mother_ended
 		}
 	}
 
-    visible = {
-        this = c:AMZ
-    }
+	visible = {
+		this = c:AMZ
+	}
 
+	on_start = {
+		set_variable = {
+			name = nom_support
+			value = 0
+		}
+		set_variable = {
+			name = nom_manpower_sent
+			value = 0
+		}
+		set_variable = {
+			name = nom_sailors_sent
+			value = 0
+		}
+		set_variable = {
+			name = nom_milestone_25_reached
+			value = no
+		}
+		set_variable = {
+			name = nom_milestone_50_reached
+			value = no
+		}
+		set_variable = {
+			name = nom_milestone_75_reached
+			value = no
+		}
+		set_variable = {
+			name = nom_milestone_100_reached
+			value = no
+		}
+	}
 
+	on_monthly = {
+		if = {
+			limit = {
+				var:nom_support > 0
+			}
+			change_variable = {
+				name = nom_support
+				add = -0.35
+			}
+		}
+		clamp_variable = {
+			name = nom_support
+			max = 100
+			min = 0
+		}
+		needs_of_the_mother_update_milestones = yes
+	}
+
+	on_ending = {
+		trigger_event_non_silently = needs_of_the_mother.5
+	}
+
+	on_ended = {
+		remove_variable = nom_support
+		remove_variable = nom_manpower_sent
+		remove_variable = nom_sailors_sent
+		remove_variable = nom_milestone_25_reached
+		remove_variable = nom_milestone_50_reached
+		remove_variable = nom_milestone_75_reached
+		remove_variable = nom_milestone_100_reached
+	}
 }

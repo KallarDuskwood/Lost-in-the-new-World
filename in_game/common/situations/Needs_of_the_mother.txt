@@ -1,0 +1,22 @@
+﻿needs_of_the_mother = {
+    monthly_spawn_chance = 0
+
+    can_start = {
+		#Activated by event
+		always = no
+	}
+
+    can_end = {
+		#If the situation has reached the second phase and treaty relevance has been depleted
+		custom_tooltip = {
+			text = needs_of_the_mother_can_end_tt
+			has_global_variable = needs_of_the_mother_ended
+		}
+	}
+
+    visible = {
+        this = c:AMZ
+    }
+
+
+}

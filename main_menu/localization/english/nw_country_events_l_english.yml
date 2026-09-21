@@ -28,3 +28,17 @@
   amz_flavor.5.desc: "Amazonia continued to expand its influence in the New World, integrating new territories and consolidating its power. The colony's growth was marked by the establishment of new settlements along the coast."
   amz_flavor.5.a: "Establish the settlements"
   amz_flavor.5.b: "it is too expensive"
+
+  amz_flavor.6.title: "The native tribes of the Marajoara"
+  amz_flavor.6.entry: "$amz_flavor.6.title$"
+  amz_flavor.6.desc: "The native tribes of the Marajoara region have long resisted the influence of the colonizers. Efforts to convert and integrate these populations have met with varying degrees of success, with some communities adopting the settlers' culture and religion while others maintain their traditional ways."
+  amz_flavor.6.a: "Assimilate the tribes"
+  amz_flavor.6.b: "Leave them be"
+  nw_up_to_40_percent_convert_tt: "Up to 40% of the non-converted population in the Marajoara province will adopt our culture and religion."
+
+  amz_flavor.7.title: "The Native Assimilation Act"
+  amz_flavor.7.entry: "$amz_flavor.7.title$"
+  amz_flavor.7.desc: "The Native Assimilation Act was a series of laws meant to regulate the integration of native populations into colonial society, encouraging the adoption of the settlers' culture and religion. It was a result of less and less support from the homeland and marks a pivot point of local self-governance."
+  amz_flavor.7.a: "Implement the act"
+  amz_flavor.7.b: "Reject the act"
+  

@@ -9,7 +9,6 @@ amz_flavor.1 = {
     outcome = neutral
 
     fire_only_once = yes
-	major = yes
 
     immediate = {
         location:ananatuba = { 
@@ -20,9 +19,7 @@ amz_flavor.1 = {
 
     option = {
         name = amz_flavor.1.a
-        activate_situation = situation:dusk_of_the_old_world
-
-
+        
     }
 }
 
@@ -122,7 +119,7 @@ amz_flavor.5 = {
 
     dynamic_historical_event = {
 		tag = AMZ
-		from = 1450.1.1
+		from = 1510.1.1
 		to = 1836.1.1
 		monthly_chance = 5
 	}
@@ -160,5 +157,94 @@ amz_flavor.5 = {
 
     option = {
         name = amz_flavor.5.b
+    }
+}
+
+### The native tribes of the Marajoara
+amz_flavor.6 = {
+    type = country_event
+    title = amz_flavor.6.title
+    desc = amz_flavor.6.desc
+    outcome = neutral
+
+    dynamic_historical_event = {
+		tag = AMZ
+		from = 1510.1.1
+		to = 1836.1.1
+		monthly_chance = 5
+	}
+
+    trigger = {
+        c:AMZ = {
+            owns_or_non_sovereign_subject_owns_entire_province = province_definition:marajoara_province
+        }
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = amz_flavor.6.a
+
+        add_gold = -50
+
+        custom_tooltip = {
+			text = nw_up_to_40_percent_convert_tt
+            province:marajoara_province = {
+                every_location_in_province = {
+                    limit = { owner = root }
+                    every_pop = {
+                        limit = {
+                            NOT = { religion = root.religion }
+                            NOT = { culture = root.culture }
+                        }
+                        split_pop = {
+                            fraction = 0.4
+                            religion = root.religion
+                            culture  = root.culture
+                        }
+                    }
+                }
+            }
+			
+		}
+        
+    }
+
+    option = {
+        name = amz_flavor.6.b
+    }
+}
+
+### The native assimilation Act
+amz_flavor.7 = {
+    type = country_event
+    title = amz_flavor.7.title
+    desc = amz_flavor.7.desc
+    outcome = neutral
+
+    dynamic_historical_event = {
+		tag = AMZ
+		from = 1520.1.1
+		to = 1836.1.1
+		monthly_chance = 5
+	}
+
+    trigger = {
+        has_advance = native_policy_advance
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = amz_flavor.7.a
+        show_as_tooltip = {
+            unlock_law_effect = { type = nw_amz_assimilation_act }
+        }
+		set_variable = { name = enabled_nw_amz_assimilation_act value = 1 }
+		add_policy = policy:allowed_nw_amz_assimilation_act
+    }
+
+    option = {
+        name = amz_flavor.7.b
     }
 }

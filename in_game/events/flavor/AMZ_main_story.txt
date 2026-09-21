@@ -1,0 +1,16 @@
+﻿namespace = amz_needs_of_the_mother
+
+### A messager
+amz_needs_of_the_mother.1 = {
+    type = country_event
+    title = amz_needs_of_the_mother.1.title
+    desc = amz_needs_of_the_mother.1.desc
+    outcome = neutral
+
+	fire_only_once = yes
+
+	option = {
+        name = amz_needs_of_the_mother.1.a
+		
+    }
+}

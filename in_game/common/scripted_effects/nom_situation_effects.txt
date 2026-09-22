@@ -1,0 +1,49 @@
+needs_of_the_mother_update_milestones = {
+	if = {
+		limit = {
+			var:nom_support >= 25
+			NOT = { has_variable = nom_milestone_25_reached }
+		}
+		set_variable = {
+			name = nom_milestone_25_reached
+			value = yes
+		}
+		trigger_event_non_silently = needs_of_the_mother.1
+	}
+
+	if = {
+		limit = {
+			var:nom_support >= 50
+			NOT = { has_variable = nom_milestone_50_reached }
+		}
+		set_variable = {
+			name = nom_milestone_50_reached
+			value = yes
+		}
+		trigger_event_non_silently = needs_of_the_mother.2
+	}
+
+	if = {
+		limit = {
+			var:nom_support >= 75
+			NOT = { has_variable = nom_milestone_75_reached }
+		}
+		set_variable = {
+			name = nom_milestone_75_reached
+			value = yes
+		}
+		trigger_event_non_silently = needs_of_the_mother.3
+	}
+
+	if = {
+		limit = {
+			var:nom_support >= 100
+			NOT = { has_variable = nom_milestone_100_reached }
+		}
+		set_variable = {
+			name = nom_milestone_100_reached
+			value = yes
+		}
+		trigger_event_non_silently = needs_of_the_mother.4
+	}
+}

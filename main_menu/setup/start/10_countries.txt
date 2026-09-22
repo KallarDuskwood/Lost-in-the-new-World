@@ -25,7 +25,8 @@ countries = {
 			}
 
 			include = "expl_world"
-
+			starting_technology_level = 3
+			
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -33,7 +34,7 @@ countries = {
 			}
 
 			country_rank = rank_duchy
-			capital = mazagao
+			capital = ananatuba
 
 		}
 

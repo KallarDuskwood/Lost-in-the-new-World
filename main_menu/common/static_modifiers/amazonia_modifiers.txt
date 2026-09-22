@@ -1,0 +1,30 @@
+﻿nw_nova_lisboa = {
+	game_data = { 
+		category = location
+	}
+
+	harbor_suitability = 0.3
+    local_population_capacity_modifier = 0.2
+    local_monthly_development_modifier = 0.1
+}
+
+nw_nova_porto = {
+	game_data = { 
+		category = location
+	}
+
+	harbor_suitability = 0.2
+    local_population_capacity_modifier = 0.2
+    local_monthly_development_modifier = 0.1
+}
+
+nw_nova_faro = {
+	game_data = { 
+		category = location
+	}
+
+	harbor_suitability = 0.2
+    local_population_capacity_modifier = 0.2
+    local_monthly_development_modifier = 0.1
+    local_migration_attraction = 0.1
+}

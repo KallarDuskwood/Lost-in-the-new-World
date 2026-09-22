@@ -5,4 +5,8 @@ locations = {
     tadoussac = { rank = town town_setup = empty_town }
     matapedia = { rank = town town_setup = empty_town }
 
+    ### Amazonie
+    ananatuba = { rank = city town_setup = empty_town }
+    kuruaya = { rank = town town_setup = empty_town }
+    arua_amazon = { rank = town town_setup = empty_town }
 }

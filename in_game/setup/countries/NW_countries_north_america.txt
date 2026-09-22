@@ -29,7 +29,7 @@ HAD = {
 AMZ = {
     color = rgb { 11 128 39 }
 
-    culture_definition = portuguese
+    culture_definition = nw_amazonian
     religion_definition = catholic
 
 }

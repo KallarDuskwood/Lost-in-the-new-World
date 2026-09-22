@@ -8,5 +8,18 @@ nw_trigger_start_events = {
 			trigger_event_silently = arc_flavor.1 ### Startup event for Arcadia
             set_variable = old_world_colony
 		}
+
+        c:AMZ = {
+			trigger_event_silently = amz_flavor.1 ### Startup event for Amazonia
+            set_variable = old_world_colony
+            
+		}
+
+        every_country = {
+            limit = {
+                has_variable = old_world_colony
+            }
+            activate_situation = situation:dusk_of_the_old_world
+        }
     }
 }

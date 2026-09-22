@@ -1,0 +1,101 @@
+namespace = needs_of_the_mother
+
+needs_of_the_mother.1 = {
+	type = country_event
+	category = situation_event
+	fire_only_once = yes
+	title = needs_of_the_mother.1.title
+	desc = needs_of_the_mother.1.desc
+	outcome = neutral
+	image = "gfx/interface/illustrations/situation/needs_of_the_mother.dds"
+
+	trigger = {
+		situation:needs_of_the_mother = {
+			situation_is_active = yes
+		}
+	}
+
+	option = {
+		name = needs_of_the_mother.1.a
+	}
+}
+
+needs_of_the_mother.2 = {
+	type = country_event
+	category = situation_event
+	fire_only_once = yes
+	title = needs_of_the_mother.2.title
+	desc = needs_of_the_mother.2.desc
+	outcome = neutral
+	image = "gfx/interface/illustrations/situation/needs_of_the_mother.dds"
+
+	trigger = {
+		situation:needs_of_the_mother = {
+			situation_is_active = yes
+		}
+	}
+
+	option = {
+		name = needs_of_the_mother.2.a
+	}
+}
+
+needs_of_the_mother.3 = {
+	type = country_event
+	category = situation_event
+	fire_only_once = yes
+	title = needs_of_the_mother.3.title
+	desc = needs_of_the_mother.3.desc
+	outcome = neutral
+	image = "gfx/interface/illustrations/situation/needs_of_the_mother.dds"
+
+	trigger = {
+		situation:needs_of_the_mother = {
+			situation_is_active = yes
+		}
+	}
+
+	option = {
+		name = needs_of_the_mother.3.a
+	}
+}
+
+needs_of_the_mother.4 = {
+	type = country_event
+	category = situation_event
+	fire_only_once = yes
+	title = needs_of_the_mother.4.title
+	desc = needs_of_the_mother.4.desc
+	outcome = neutral
+	image = "gfx/interface/illustrations/situation/needs_of_the_mother.dds"
+
+	trigger = {
+		situation:needs_of_the_mother = {
+			situation_is_active = yes
+		}
+	}
+
+	option = {
+		name = needs_of_the_mother.4.a
+	}
+}
+
+needs_of_the_mother.5 = {
+	type = country_event
+	category = situation_event
+	fire_only_once = yes
+	title = needs_of_the_mother.5.title
+	desc = needs_of_the_mother.5.desc
+	outcome = neutral
+	image = "gfx/interface/illustrations/situation/needs_of_the_mother.dds"
+
+	trigger = {
+		situation:needs_of_the_mother = {
+			situation_is_active = yes
+		}
+	}
+
+	option = {
+		name = needs_of_the_mother.5.a
+	}
+}

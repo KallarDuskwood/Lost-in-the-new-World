@@ -10,4 +10,42 @@
   NW_DUSK_OF_THE_OLD_WORLD_INFO_HEADER: "Dusk of the Old World Gameplay Advice"
   NW_DUSK_OF_THE_OLD_WORLD_INFO_TEXT: "#E This Situation aims to provide players with much needed population and resources. Refugees will always arive in provinces that have at least 0.5 [harbor_capacity_with_icon|e]. To attract them, it is recommended to have a harbor related building like a [ShowBuildingTypeName('wharf')] or a [ShowBuildingTypeName('protected_harbor')]. Often investing pays of more in the long term. \n\nUse this as much as possible.#!"
   NW_DUSK_OF_THE_OLD_WORLD_DURING_EVENT_INFO_HEADER: "What can we do?"
-  NW_DUSK_OF_THE_OLD_WORLD_DURING_EVENT_INFO_TEXT: "Curing this period we have acces to a special buildings based on the nation we play. \n\n[ShowBuildingTypeName('cathedral')]"
+  NW_DUSK_OF_THE_OLD_WORLD_DURING_EVENT_INFO_TEXT: "During this period we have acces to a special buildings based on the nation we play. \n\n[ShowBuildingTypeName('cathedral')]"
+
+  ### Needs of the Mother
+  needs_of_the_mother: "Needs of the Mother"
+  needs_of_the_mother_desc: "The colony has asked the homeland for aid, and every shipment and petition shapes how much support the Crown is willing to grant."
+
+  nom_support_label: "Support from the Homeland"
+  nom_manpower_sent_label: "Manpower Sent"
+  nom_sailors_sent_label: "Sailors Sent"
+  nom_threshold_25: "Relief convoy secured"
+  nom_threshold_50: "Planned reinforcement"
+  nom_threshold_75: "Crown intervention"
+  nom_threshold_100: "The colony is fully sustained"
+
+  nom_send_gold: "Send Gold"
+  nom_send_manpower: "Send Men"
+  nom_send_sailors: "Send Sailors"
+  nom_send_goods: "Send Supplies"
+  nom_petition_crown: "Petition the Crown"
+
+  needs_of_the_mother.1.title: "The First Convoy Arrives"
+  needs_of_the_mother.1.desc: "The colony receives its first significant shipment of money and supplies from the mother country."
+  needs_of_the_mother.1.a: "A good beginning."
+
+  needs_of_the_mother.2.title: "A Planned Reinforcement"
+  needs_of_the_mother.2.desc: "The local administration reports that the new aid has stabilized the colony and improved morale."
+  needs_of_the_mother.2.a: "We will continue to rely on the Crown."
+
+  needs_of_the_mother.3.title: "The Crown Responds in Force"
+  needs_of_the_mother.3.desc: "The homeland has taken the colony’s pleas seriously and has committed more men, ships, and capital."
+  needs_of_the_mother.3.a: "Let the burden be shared."
+
+  needs_of_the_mother.4.title: "The Colony Is Sustained"
+  needs_of_the_mother.4.desc: "The mother country’s support is now total. The colony can stand without immediate crisis."
+  needs_of_the_mother.4.a: "The empire is united."
+
+  needs_of_the_mother.5.title: "The Crown Turns Away"
+  needs_of_the_mother.5.desc: "The colony’s support has fallen to nothing and its pleas are no longer receiving aid."
+  needs_of_the_mother.5.a: "The burden falls squarely upon us."

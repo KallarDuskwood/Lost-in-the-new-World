@@ -13,3 +13,19 @@
 		french_group
 	}
 }
+
+nw_amazonian = { 
+	language = portuguese_dialect
+	
+	color = map_POR
+	
+	tags = { portuguese_gfx iberian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		portuguese = kindred
+	}
+	
+	culture_groups = {
+		iberian_group
+	}
+}

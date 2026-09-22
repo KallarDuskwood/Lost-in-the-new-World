@@ -1,0 +1,28 @@
+﻿nw_amz_assimilation_act = {
+	unique = yes
+	law_category = socioeconomic
+	potential = {
+		has_variable = enabled_nw_amz_assimilation_act
+	}
+
+	allowed_nw_amz_assimilation_act = {
+		country_modifier = {
+			global_pop_assimilation_speed_modifier = 0.1
+			global_pop_conversion_speed_modifier = 0.1
+			tax_income_efficiency = -0.01
+		}
+		estate_preferences = {
+			nobles_estate
+		}
+		years = 2
+	}
+	pause_on_nw_amz_assimilation_act = {
+		country_modifier = {
+			peasants_estate_target_satisfaction = small_permanent_target_satisfaction
+		}
+		estate_preferences = {
+			peasants_estate
+		}
+		years = 2
+	}	
+}

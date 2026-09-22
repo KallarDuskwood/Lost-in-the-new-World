@@ -1,0 +1,8 @@
+﻿nw_colonizing_amz = {
+	lumber = 3
+	cloth = 3
+    weaponry = 1
+
+	hidden = no
+	category = special_demands
+}

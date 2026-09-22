@@ -7,11 +7,13 @@ nw_trigger_start_events = {
         c:ARC = {
 			trigger_event_silently = arc_flavor.1 ### Startup event for Arcadia
             set_variable = old_world_colony
+            set_variable = { name = dusk_of_the_old_world_migrated_pops value = 0 }
 		}
 
         c:AMZ = {
 			trigger_event_silently = amz_flavor.1 ### Startup event for Amazonia
             set_variable = old_world_colony
+            set_variable = { name = dusk_of_the_old_world_migrated_pops value = 0 }
             
 		}
 

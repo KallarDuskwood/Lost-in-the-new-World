@@ -9,8 +9,98 @@
   dusk_of_the_old_world_can_end_tt: "$NW_DUSK_OF_THE_OLD_WORLD_END_CONDITION_TEXT$"
   NW_DUSK_OF_THE_OLD_WORLD_INFO_HEADER: "Dusk of the Old World Gameplay Advice"
   NW_DUSK_OF_THE_OLD_WORLD_INFO_TEXT: "#E This Situation aims to provide players with much needed population and resources. Refugees will always arive in provinces that have at least 0.5 [harbor_capacity_with_icon|e]. To attract them, it is recommended to have a harbor related building like a [ShowBuildingTypeName('wharf')] or a [ShowBuildingTypeName('protected_harbor')]. Often investing pays of more in the long term. \n\nUse this as much as possible.#!"
+  NW_DUSK_OF_THE_OLD_WORLD_MIGRATED_POPS: "Migrated Pops"
+  NW_DUSK_OF_THE_OLD_WORLD_MIGRATED_POPS_DESC: "The total amount of refugee pops that have arrived through the Dusk of the Old World."
   NW_DUSK_OF_THE_OLD_WORLD_DURING_EVENT_INFO_HEADER: "What can we do?"
   NW_DUSK_OF_THE_OLD_WORLD_DURING_EVENT_INFO_TEXT: "During this period we have acces to a special buildings based on the nation we play. \n\n[ShowBuildingTypeName('cathedral')]"
+  
+  nw_dusk_of_the_old_world.2.title: "Local Customs Fade"
+  nw_dusk_of_the_old_world.2.desc: "As the old world grows more distant, local communities increasingly look to our own institutions, rites, and tongue for stability. Families once divided by memory and custom now begin to fold themselves into the culture and faith of the realm."
+  dusk_of_the_old_world.2.a: "They are our people now."
+  nw_dusk_assimilation_tt: "Up to 20% of the non-assimilated population in a random owned location will adopt our culture and religion."
+  
+  nw_dusk_of_the_old_world.3.title: "A Ship Bearing Bad News"
+  nw_dusk_of_the_old_world.3.desc: "A battered ship limps into harbor with word from the old world. Its crew speaks of war, famine, and disease spreading through lands already strained beyond endurance. The rumors move faster than the sailors themselves, darkening the mood in every market and tavern."
+  dusk_of_the_old_world.3.a: "Spend some ducats to lift the spirits."
+  dusk_of_the_old_world.3.b: "Let the grim news settle."
+  nw_dusk_of_the_old_world.4.title: "An Enterprising Merchant"
+  nw_dusk_of_the_old_world.4.desc: "A merchant newly arrived from across the sea claims to have secured a rare cargo from the old world. The goods are battered by salt, guarded by sharp-eyed sailors, and priced with the confidence of someone who knows exactly how scarce they have become."
+  dusk_of_the_old_world.4.a: "Buy the cargo."
+  dusk_of_the_old_world.4.b: "Decline the offer."
+  nw_dusk_of_the_old_world.5.title: "A City of New Hopes"
+  nw_dusk_of_the_old_world.5.desc: "Word spreads that the capital still has room for those willing to begin again. Families, laborers, and artisans drift toward its streets, drawn by the promise of work, shelter, and a safer future."
+  dusk_of_the_old_world.5.a: "Let them come."
+  nw_dusk_of_the_old_world.6.title: "A Harbor of New Hopes"
+  nw_dusk_of_the_old_world.6.desc: "Beyond the capital, one of our harbor towns has begun to draw restless families and workers from the roads. Its quays, warehouses, and crowded lanes promise passage, wages, and a place to start again."
+  dusk_of_the_old_world.6.a: "The harbor will welcome them."
+
+  nw_epic_old_world.1.title: "Letters from Home"
+  nw_epic_old_world.1.desc: "The latest ship from Europe brought little cargo and fewer passengers than expected. Those who came ashore speak of empty villages, abandoned fields, and markets where grain is worth its weight in silver. For now, these are only rumors from a distant shore, but the merchants have begun to whisper that something is different this time."
+  nw_epic_old_world.1.a: "Europe has survived worse."
+  nw_epic_old_world.1.b: "Find out what is happening."
+
+  nw_epic_old_world.2.title: "The Price of Bread"
+  nw_epic_old_world.2.desc: "The price of grain in Europe has risen dramatically. At first merchants blamed a poor harvest, then came reports that the harvest had failed everywhere. Ships arriving from Europe now carry more refugees than merchants, and all of them tell the same story: there is not enough food."
+  nw_epic_old_world.2.a: "Buy whatever grain can be found."
+
+  nw_epic_old_world.3.title: "The Black Ships"
+  nw_epic_old_world.3.desc: "Three ships arrived this month. The first carried no cargo. The second carried only six survivors. The third never reached the harbor. The survivors speak of a sickness spreading through the ports of Europe. The disease has not yet reached our shores, but the ships have."
+  nw_epic_old_world.3.a: "Quarantine the harbor."
+  nw_epic_old_world.3.b: "We cannot abandon trade."
+
+  nw_epic_old_world.4.title: "A Continent Falls Ill"
+  nw_epic_old_world.4.desc: "The reports are no longer rumors. The sickness has spread from the ports into the countryside. Entire provinces are said to have lost half their inhabitants. Europe is beginning to discover that a civilization can die not in a single battle, but one household at a time."
+  nw_epic_old_world.4.a: "There are too few hands for the living."
+
+  nw_epic_old_world.5.title: "The War Without End"
+  nw_epic_old_world.5.desc: "We had been told that the war would be short. Then another king joined it, then another. Armies march across fields that had only recently been harvested, and soldiers requisition food from people already starving. No one remembers who fired the first shot anymore."
+  nw_epic_old_world.5.a: "Send what men and ships we can spare."
+
+  nw_epic_old_world.6.title: "The Empty Battlefield"
+  nw_epic_old_world.6.desc: "A messenger has arrived from Europe carrying an extraordinary report. Two great armies met outside a city whose name we barely recognize. Neither side won. Neither side lost. Almost everyone died, and within weeks the disease followed the survivors home."
+  nw_epic_old_world.6.a: "Europe consumes its own defenders."
+
+  nw_epic_old_world.7.title: "The Harvest That Never Came"
+  nw_epic_old_world.7.desc: "Another harvest has failed. In Europe, this is no longer considered a disaster. It is simply the way of things. Grain stores have been emptied, livestock has disappeared, and the roads are crowded with refugees walking nowhere in particular."
+  nw_epic_old_world.7.a: "Buy more, whatever the price."
+
+  nw_epic_old_world.8.title: "The Children of Hunger"
+  nw_epic_old_world.8.desc: "The latest arrivals from Europe are unlike any refugees we have seen before. They are mostly children. Their parents are dead, their villages are empty, and they crossed the ocean because someone told them there was still food here."
+  nw_epic_old_world.8.a: "Take them in."
+  nw_epic_old_world.8.b: "We cannot feed everyone."
+
+  nw_epic_old_world.9.title: "No King Answers"
+  nw_epic_old_world.9.desc: "For months we have attempted to contact the royal government. There has been no reply. The last official letter we received claimed that the capital had ceased sending orders months ago. Now even that governor is missing. Nobody knows who governs Europe anymore."
+  nw_epic_old_world.9.a: "Then we must govern ourselves."
+
+  nw_epic_old_world.10.title: "The Road Belongs to the Strong"
+  nw_epic_old_world.10.desc: "The roads of Europe are no longer safe. Travelers speak of bandits, deserters, and armed bands wandering between abandoned villages. Some call themselves soldiers. Others claim to serve kings whose kingdoms no longer exist."
+  nw_epic_old_world.10.a: "The sea lanes must be guarded."
+
+  nw_epic_old_world.11.title: "The Fall of a Great City"
+  nw_epic_old_world.11.desc: "The news has finally arrived. A great city of the Old World has fallen, not to an enemy army, and not to a foreign conqueror. There was simply no one left to defend it. Its gates were open, its markets empty, and its bells silent."
+  nw_epic_old_world.11.a: "Another name enters the ledger of the dead."
+
+  nw_epic_old_world.12.title: "The Last Merchant"
+  nw_epic_old_world.12.desc: "A merchant vessel has arrived from Europe. The captain says he intends to make one final voyage. There is almost nothing left to trade, the ports are empty, the roads are unsafe, and his crew is dying. Yet he insists there are still people waiting on the other side of the ocean."
+  nw_epic_old_world.12.a: "Fill his hold."
+  nw_epic_old_world.12.b: "No more ships will be sent."
+
+  nw_epic_old_world.13.title: "No Ships on the Horizon"
+  nw_epic_old_world.13.desc: "The Atlantic has been strangely quiet. No merchantmen. No royal vessels. No fishing boats. No refugees. For decades ships crossed this ocean carrying news, people, and goods between two worlds. Now there is nothing."
+  nw_epic_old_world.13.a: "Is anyone still there?"
+
+  nw_epic_old_world.14.title: "The Silence"
+  nw_epic_old_world.14.desc: "Another year has passed. No letters have arrived from Europe. No ships have come from its ports. No ambassador has requested an audience. The last confirmed message from the Old World was dated eleven years ago. It ended with three words: Pray for us."
+  nw_epic_old_world.14.a: "There may be no one left to pray for."
+
+  nw_epic_old_world.15.title: "The World Has Changed"
+  nw_epic_old_world.15.desc: "For generations, our people looked across the ocean toward Europe. That was where kings lived, where the great universities stood, and where emperors crowned themselves. Now the ships have stopped coming. Perhaps Europe is no longer the center of our world. Perhaps we are."
+  nw_epic_old_world.15.a: "The maps can no longer command us."
+
+  nw_epic_old_world.16.title: "The Old World Is Dead"
+  nw_epic_old_world.16.desc: "The final expedition has returned. The great ports are silent, roads have disappeared beneath weeds, fields have become forests, and towers still stand with bells that no longer ring. Here and there, small communities survive behind walls. We came looking for Europe. We found ruins."
+  nw_epic_old_world.16.a: "Then the age of the Old World is over."
 
   ### Needs of the Mother
   needs_of_the_mother: "Needs of the Mother"

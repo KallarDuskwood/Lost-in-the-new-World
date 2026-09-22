@@ -20,12 +20,32 @@ dusk_of_the_old_world = {
         has_variable = old_world_colony
     }
 
+    on_start = {
+        if = {
+            limit = {
+                has_variable = old_world_colony
+                NOT = { has_variable = nw_epic_old_world_chain_started }
+            }
+            set_variable = nw_epic_old_world_chain_started
+            trigger_event_non_silently = { id = nw_epic_old_world.1 months = 6 }
+        }
+    }
+
     on_monthly = {
         every_country = {
+            limit = {
+                has_variable = old_world_colony
+                is_situation_active = situation:dusk_of_the_old_world
+            }
             
             random_list = {
 
                 100 = { trigger_event_non_silently = nw_dusk_of_the_old_world.1 }
+                10 = { trigger_event_non_silently = nw_dusk_of_the_old_world.2 }
+                10 = { trigger_event_non_silently = nw_dusk_of_the_old_world.3 }
+                10 = { trigger_event_non_silently = nw_dusk_of_the_old_world.4 }
+                10 = { trigger_event_non_silently = nw_dusk_of_the_old_world.5 }
+                10 = { trigger_event_non_silently = nw_dusk_of_the_old_world.6 }
             }
         }
 

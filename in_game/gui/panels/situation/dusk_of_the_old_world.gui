@@ -4,6 +4,47 @@ situation_panel = {
 
 	# ORIGIN
 	blockoverride "situation_header_left" {
+		icon = {
+			size = {32 32}
+			texture = "gfx/interface/icons/pops/laborers.dds"
+		}
+
+		vbox = {
+			layoutpolicy_horizontal = expanding
+			text_single = {
+				fontsize = 15
+				text = "NW_DUSK_OF_THE_OLD_WORLD_MIGRATED_POPS"
+				default_format = "#subtle_name"
+			}
+
+			text_single = {
+				layoutpolicy_horizontal = expanding
+				fontsize = 13
+				text = "[Player.MakeScope.GetVariable('dusk_of_the_old_world_migrated_pops').GetValue|1]"
+			}
+
+			tooltipwidget = {
+				ContextualTooltipType = {
+					blockoverride "title_text" {
+						text = "NW_DUSK_OF_THE_OLD_WORLD_MIGRATED_POPS"
+					}
+					blockoverride "title_icon" {
+						icon = {
+							using = tooltip_title_icon_size
+							texture = "gfx/interface/icons/pops/laborers.dds"
+						}
+					}
+					blockoverride "tooltip_content" {
+						TooltipTextBlock = {
+							blockoverride "text" {
+								text = "NW_DUSK_OF_THE_OLD_WORLD_MIGRATED_POPS_DESC"
+							}
+						}
+					}
+				}
+			}
+		}
+		expand = {}
 
 	}
 
@@ -106,4 +147,6 @@ situation_panel = {
 		
 
 		
+}
+
 }

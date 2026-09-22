@@ -21,6 +21,8 @@ nw_dusk_of_the_old_world.1 = {
                 10 = { culture:castilian = {save_scope_as = target_culture} }
                 10 = { culture:scottish = {save_scope_as = target_culture} }
                 10 = { culture:danube_bavarian = {save_scope_as = target_culture} }
+                10 = { culture:portuguese = {save_scope_as = target_culture} }
+                10 = { culture:venetian = {save_scope_as = target_culture} }
             }
 
         }
@@ -35,12 +37,30 @@ nw_dusk_of_the_old_world.1 = {
 				modifier:harbor_suitability > 0.5
             }
             random_list = {
-				50 = { add_pop = {culture = scope:target_culture religion = root.religion type = pop_type:peasants size = 0.4} }
-				30 = { add_pop = {culture = scope:target_culture religion = root.religion type = pop_type:peasants size = 0.8} }
-				10 = { add_pop = {culture = scope:target_culture religion = root.religion type = pop_type:peasants size = 1.6} }
-				5 = { add_pop = {culture = scope:target_culture religion = root.religion type = pop_type:peasants size = 3.2} }
-				3 = { add_pop = {culture = scope:target_culture religion = root.religion type = pop_type:peasants size = 4.8} }
-				2 = { add_pop = {culture = scope:target_culture religion = root.religion type = pop_type:peasants size = 6.4} }
+                50 = {
+                    add_pop = {culture = scope:target_culture religion = root.religion type = pop_type:peasants size = 0.4}
+                    root = { change_variable = { name = dusk_of_the_old_world_migrated_pops add = 400 } }
+                }
+                30 = {
+                    add_pop = {culture = scope:target_culture religion = root.religion type = pop_type:peasants size = 0.8}
+                    root = { change_variable = { name = dusk_of_the_old_world_migrated_pops add = 800 } }
+                }
+                10 = {
+                    add_pop = {culture = scope:target_culture religion = root.religion type = pop_type:peasants size = 1.6}
+                    root = { change_variable = { name = dusk_of_the_old_world_migrated_pops add = 1600 } }
+                }
+                5 = {
+                    add_pop = {culture = scope:target_culture religion = root.religion type = pop_type:peasants size = 3.2}
+                    root = { change_variable = { name = dusk_of_the_old_world_migrated_pops add = 3200 } }
+                }
+                3 = {
+                    add_pop = {culture = scope:target_culture religion = root.religion type = pop_type:peasants size = 4.8}
+                    root = { change_variable = { name = dusk_of_the_old_world_migrated_pops add = 4800 } }
+                }
+                2 = {
+                    add_pop = {culture = scope:target_culture religion = root.religion type = pop_type:peasants size = 6.4}
+                    root = { change_variable = { name = dusk_of_the_old_world_migrated_pops add = 6400 } }
+                }
 			}
 
             
@@ -50,4 +70,215 @@ nw_dusk_of_the_old_world.1 = {
 
 
 
+}
+
+nw_dusk_of_the_old_world.2 = {
+    type = country_event
+    title = nw_dusk_of_the_old_world.2.title
+    desc = nw_dusk_of_the_old_world.2.desc
+
+    outcome = neutral
+
+    trigger = {
+        any_owned_location = {
+            any_pop = {
+                OR = {
+                    NOT = { culture = root.culture }
+                    NOT = { religion = root.religion }
+                }
+            }
+        }
+    }
+
+    illustration_tags = {
+		10 = exterior
+	}
+
+    option = {
+        name = dusk_of_the_old_world.2.a
+
+        custom_tooltip = {
+            text = nw_dusk_assimilation_tt
+            random_owned_location = {
+                limit = {
+                    any_pop = {
+                        OR = {
+                            NOT = { culture = root.culture }
+                            NOT = { religion = root.religion }
+                        }
+                    }
+                }
+                every_pop = {
+                    limit = {
+                        OR = {
+                            NOT = { culture = root.culture }
+                            NOT = { religion = root.religion }
+                        }
+                    }
+                    split_pop = {
+                        fraction = 0.2
+                        religion = root.religion
+                        culture = root.culture
+                    }
+                }
+            }
+        }
+    }
+}
+
+nw_dusk_of_the_old_world.3 = {
+    type = country_event
+    title = nw_dusk_of_the_old_world.3.title
+    desc = nw_dusk_of_the_old_world.3.desc
+
+    outcome = neutral
+
+    illustration_tags = {
+		10 = exterior
+	}
+
+    option = {
+        name = dusk_of_the_old_world.3.a
+        add_gold = -50
+    }
+
+    option = {
+        name = dusk_of_the_old_world.3.b
+        add_estate_satisfaction = { type = estate_type:peasants_estate value = -0.10 }
+    }
+}
+
+nw_dusk_of_the_old_world.4 = {
+    type = country_event
+    title = nw_dusk_of_the_old_world.4.title
+    desc = nw_dusk_of_the_old_world.4.desc
+
+    outcome = neutral
+
+    illustration_tags = {
+		10 = interior
+	}
+
+    immediate = {
+        random_list = {
+            10 = { set_variable = { name = nw_dusk_merchant_goods_amount value = 5 } }
+            10 = { set_variable = { name = nw_dusk_merchant_goods_amount value = 6 } }
+            10 = { set_variable = { name = nw_dusk_merchant_goods_amount value = 7 } }
+            10 = { set_variable = { name = nw_dusk_merchant_goods_amount value = 8 } }
+            10 = { set_variable = { name = nw_dusk_merchant_goods_amount value = 9 } }
+            10 = { set_variable = { name = nw_dusk_merchant_goods_amount value = 10 } }
+        }
+        set_variable = {
+            name = nw_dusk_merchant_goods_cost
+            value = var:nw_dusk_merchant_goods_amount
+        }
+        random_list = {
+            10 = { set_variable = { name = nw_dusk_merchant_goods_type value = 1 } }
+            10 = { set_variable = { name = nw_dusk_merchant_goods_type value = 2 } }
+            10 = { set_variable = { name = nw_dusk_merchant_goods_type value = 3 } }
+            10 = { set_variable = { name = nw_dusk_merchant_goods_type value = 4 } }
+        }
+    }
+
+    option = {
+        name = dusk_of_the_old_world.4.a
+
+        add_gold = { value = var:nw_dusk_merchant_goods_cost multiply = -1 }
+
+        if = {
+            limit = { var:nw_dusk_merchant_goods_type = 1 }
+            capital.market ?= { add_goods_supply = { goods = goods:cloth amount = root.var:nw_dusk_merchant_goods_amount } }
+        }
+        else_if = {
+            limit = { var:nw_dusk_merchant_goods_type = 2 }
+            capital.market ?= { add_goods_supply = { goods = goods:wool amount = root.var:nw_dusk_merchant_goods_amount } }
+        }
+        else_if = {
+            limit = { var:nw_dusk_merchant_goods_type = 3 }
+            capital.market ?= { add_goods_supply = { goods = goods:silver amount = root.var:nw_dusk_merchant_goods_amount } }
+        }
+        else = {
+            capital.market ?= { add_goods_supply = { goods = goods:iron amount = root.var:nw_dusk_merchant_goods_amount } }
+        }
+
+        remove_variable = nw_dusk_merchant_goods_amount
+        remove_variable = nw_dusk_merchant_goods_cost
+        remove_variable = nw_dusk_merchant_goods_type
+    }
+
+    option = {
+        name = dusk_of_the_old_world.4.b
+        remove_variable = nw_dusk_merchant_goods_amount
+        remove_variable = nw_dusk_merchant_goods_cost
+        remove_variable = nw_dusk_merchant_goods_type
+    }
+}
+
+nw_dusk_of_the_old_world.5 = {
+    type = country_event
+    title = nw_dusk_of_the_old_world.5.title
+    desc = nw_dusk_of_the_old_world.5.desc
+
+    outcome = neutral
+
+    trigger = {
+        capital ?= {
+            NOT = { has_location_modifier = nw_dusk_capital_migration_attraction }
+        }
+    }
+
+    illustration_tags = {
+		10 = exterior
+	}
+
+    option = {
+        name = dusk_of_the_old_world.5.a
+
+        capital = {
+            add_location_modifier = { modifier = nw_dusk_capital_migration_attraction years = 1 mode = add_and_extend }
+        }
+    }
+}
+
+nw_dusk_of_the_old_world.6 = {
+    type = country_event
+    title = nw_dusk_of_the_old_world.6.title
+    desc = nw_dusk_of_the_old_world.6.desc
+
+    outcome = neutral
+
+    trigger = {
+        any_owned_location = {
+            is_capital = no
+            NOT = { has_location_modifier = nw_dusk_harbor_migration_attraction }
+            modifier:harbor_suitability > 0
+            OR = {
+                location_rank = location_rank:town
+                location_rank = location_rank:city
+                location_rank = location_rank:megalopolis
+            }
+        }
+    }
+
+    illustration_tags = {
+		10 = exterior
+	}
+
+    option = {
+        name = dusk_of_the_old_world.6.a
+
+        random_owned_location = {
+            limit = {
+                is_capital = no
+                NOT = { has_location_modifier = nw_dusk_harbor_migration_attraction }
+                modifier:harbor_suitability > 0
+                OR = {
+                    location_rank = location_rank:town
+                    location_rank = location_rank:city
+                    location_rank = location_rank:megalopolis
+                }
+            }
+            add_location_modifier = { modifier = nw_dusk_harbor_migration_attraction years = 1 mode = add_and_extend }
+        }
+    }
 }

@@ -1,0 +1,161 @@
+﻿
+nw_dusk_capital_migration_attraction = {
+	game_data = {
+		category = location
+	}
+
+	local_migration_attraction = 1
+}
+
+nw_dusk_harbor_migration_attraction = {
+	game_data = {
+		category = location
+	}
+
+	local_migration_attraction = 0.5
+}
+
+nw_epic_old_world_uneasy_markets = {
+	game_data = { category = country }
+
+	import_efficiency = small_trade_efficiency_penalty
+}
+
+nw_epic_old_world_informed_merchants = {
+	game_data = { category = country }
+
+	import_efficiency = tiny_trade_efficiency_bonus
+	monthly_prestige = 0.025
+}
+
+nw_epic_old_world_grain_purchases = {
+	game_data = { category = country }
+
+	global_monthly_food_modifier = 0.05
+	import_efficiency = small_trade_efficiency_penalty
+}
+
+nw_epic_old_world_quarantined_harbors = {
+	game_data = { category = country }
+
+	import_efficiency = medium_trade_efficiency_penalty
+	export_efficiency = small_trade_efficiency_penalty
+}
+
+nw_epic_old_world_open_harbors = {
+	game_data = { category = country }
+
+	import_efficiency = small_trade_efficiency_bonus
+}
+
+nw_epic_old_world_plague_reports = {
+	game_data = { category = country }
+
+	monthly_prestige = -0.05
+}
+
+nw_epic_old_world_war_without_end = {
+	game_data = { category = country }
+
+	selling_efficiency = small_trade_efficiency_penalty
+	monthly_prestige = -0.05
+}
+
+nw_epic_old_world_militarized_crossings = {
+	game_data = { category = country }
+
+	export_efficiency = small_trade_efficiency_penalty
+	monthly_prestige = -0.05
+}
+
+nw_epic_old_world_famine_prices = {
+	game_data = { category = country }
+
+	global_monthly_food_modifier = -0.1
+	import_efficiency = medium_trade_efficiency_penalty
+}
+
+nw_epic_old_world_refugees_turned_away = {
+	game_data = { category = country }
+
+	monthly_prestige = -0.1
+}
+
+nw_epic_old_world_no_king_answers = {
+	game_data = { category = country }
+
+	monthly_prestige = -0.1
+}
+
+nw_epic_old_world_dangerous_seas = {
+	game_data = { category = country }
+
+	import_efficiency = large_trade_efficiency_penalty
+	export_efficiency = medium_trade_efficiency_penalty
+}
+
+nw_epic_old_world_city_has_fallen = {
+	game_data = { category = country }
+
+	monthly_prestige = -0.15
+}
+
+nw_epic_old_world_last_relief_convoy = {
+	game_data = { category = country }
+
+	monthly_prestige = 0.05
+}
+
+nw_epic_old_world_abandoned_old_world = {
+	game_data = { category = country }
+
+	monthly_prestige = -0.1
+	selling_efficiency = tiny_trade_efficiency_bonus
+}
+
+nw_epic_old_world_empty_atlantic = {
+	game_data = { category = country }
+
+	import_efficiency = medium_trade_efficiency_penalty
+	export_efficiency = medium_trade_efficiency_penalty
+}
+
+nw_epic_old_world_the_silence = {
+	game_data = { category = country }
+
+	monthly_prestige = -0.05
+}
+
+nw_epic_old_world_new_world_center = {
+	game_data = { category = country }
+
+	monthly_prestige = 0.1
+	selling_efficiency = small_trade_efficiency_bonus
+	export_efficiency = small_trade_efficiency_bonus
+}
+
+nw_epic_old_world_inheritors = {
+	game_data = { category = country }
+
+	monthly_prestige = 0.15
+	selling_efficiency = medium_trade_efficiency_bonus
+	export_efficiency = medium_trade_efficiency_bonus
+	non_rural_migration_attraction = 0.1
+	rural_migration_attraction = 0.1
+}
+
+nw_epic_old_world_sickly_harbor = {
+	game_data = { category = location }
+
+	local_monthly_food_modifier = -0.1
+	local_monthly_development_modifier = -0.1
+	local_migration_attraction = -0.05
+}
+
+nw_epic_old_world_refugee_quarters = {
+	game_data = { category = location }
+
+	local_population_capacity_modifier = 0.1
+	local_migration_attraction = 0.25
+	local_monthly_food_modifier = -0.05
+}

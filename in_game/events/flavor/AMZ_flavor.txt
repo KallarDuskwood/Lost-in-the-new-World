@@ -8,6 +8,8 @@ amz_flavor.1 = {
 
     outcome = neutral
 
+    image = "gfx/interface/illustrations/event/institutions/global_trade.dds"
+
     fire_only_once = yes
 
     immediate = {

@@ -1,6 +1,6 @@
 ﻿l_english:
- JIY: "Jiyu"
- JIY_ADJ: "Jiyu"
+ JIY: "Jiyū"
+ JIY_ADJ: "Jiyū"
  ARC: "Arcadia"
  ARC_ADJ: "Arcadian"
  HAD: "Haida"
@@ -9,3 +9,9 @@
  AMZ_ADJ: "Amazonian"
  NBY: "New Burgundy"
  NBY_ADJ: "New Burgundian"
+ NNB: "New Nurnberg"
+ NNB_ADJ: "New Nurnbergian"
+ NHB: "New Hamburg"
+ NHB_ADJ: "New Hamburgian"
+ NLB: "New Lubeck"
+ NLB_ADJ: "New Lubeckian"

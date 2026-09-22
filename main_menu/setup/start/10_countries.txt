@@ -67,6 +67,7 @@ countries = {
 				stlpulmsh chehalis chala_at sklallam twana makah
 				puyallup kittikas duwamish snohomish skagit nisqually
 				saanich stz_uminus ditidaht pentlatch ucluelet
+				wishram klikitat mamachatpam pa_kiut_lema wanapum
 			}
 
 			include = "expl_world"
@@ -150,6 +151,114 @@ countries = {
 
 			country_rank = rank_duchy
 			capital = jaragua
+
+		}
+
+		# Ireland - IRL
+		IRL = {
+
+			own_control_core = {
+				mayaimi ais guacata tequesta guarungube
+				tequemapo okeechobee caloosahatchee uriparacoxi
+				jororo acuera surruque ho_bay
+			}
+
+			include = "expl_world"
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+
+			country_rank = rank_duchy
+			capital = mayaimi
+
+		}
+
+		# England - ENG
+		ENG = {
+
+			own_control_core = {
+				chawasha atchafalaya opelousa
+				bulbancha bogue_chitto tangipahoa itihumma
+			}
+
+			include = "expl_world"
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+
+			country_rank = rank_duchy
+			capital = mayaimi
+
+		}
+
+		# New Nurnberg - NNB
+		NNB = {
+
+			own_control_core = {
+				manhattan tappan nochpeem
+				rippowam
+				hackensack
+			}
+
+			include = "expl_world"
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+
+			country_rank = rank_duchy
+			capital = mayaimi
+
+		}
+
+		# New Hamburg - NHB
+		NHB = {
+
+			own_control_core = {
+				shackamaxon wawassan wyomissing
+				tohickon
+				minguannan
+			}
+
+			include = "expl_world"
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+
+			country_rank = rank_duchy
+			capital = mayaimi
+
+		}
+
+		# New Lubeck - NLB
+		NLB = {
+
+			own_control_core = {
+				shawmut naumkeag assabet
+				nashua squamscott
+			}
+
+			include = "expl_world"
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+
+			country_rank = rank_duchy
+			capital = mayaimi
 
 		}
 

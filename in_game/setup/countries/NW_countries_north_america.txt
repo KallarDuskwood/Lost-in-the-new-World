@@ -51,3 +51,48 @@ HTI = {
     religion_definition = catholic
 
 }
+
+### Ireland ###
+IRL = {
+    color = map_IRE
+
+    culture_definition = irish
+    religion_definition = catholic
+
+}
+
+### England ###
+ENG = {
+    color = map_ENG
+
+    culture_definition = english
+    religion_definition = catholic
+
+}
+
+### New Nurnberg ###
+NNB = {
+    color = map_BRA
+
+    culture_definition = brandenburgish
+    religion_definition = catholic
+
+}
+
+### New Hamburg ###
+NHB = {
+    color = rgb { 227 95 7 }
+
+    culture_definition = brandenburgish
+    religion_definition = catholic
+
+}
+
+### New Lubeck ###
+NLB = {
+	color = map_lubeck
+	color2 = rgb { 156 179 189 }
+
+	culture_definition = holsatian
+	religion_definition = catholic
+}

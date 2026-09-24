@@ -96,3 +96,51 @@ NLB = {
 	culture_definition = holsatian
 	religion_definition = catholic
 }
+
+### Potawatomi ###
+POT = {
+	color = rgb { 196 157 47 }
+
+	culture_definition = bodewadomik_culture
+	religion_definition = catholic
+}
+
+### Sauk ###
+SAU = {
+	color = rgb { 116 102 212 }
+
+	culture_definition = bodewadomik_culture
+	religion_definition = catholic
+}
+
+### Fox ###
+FOX = {
+	color = rgb { 224 181 146 }
+
+	culture_definition = bodewadomik_culture
+	religion_definition = catholic
+}
+
+### Ho-Chunk ###
+HCH = {
+	color = rgb { 66 97 71 }
+
+	culture_definition = bodewadomik_culture
+	religion_definition = catholic
+}
+
+### Odawa ###
+ODA = {
+	color = map_odawa
+
+	culture_definition = bodewadomik_culture
+	religion_definition = catholic
+}
+
+### Mexica ###
+MCA = {
+	color = map_aztec
+
+	culture_definition = bodewadomik_culture
+	religion_definition = catholic
+}

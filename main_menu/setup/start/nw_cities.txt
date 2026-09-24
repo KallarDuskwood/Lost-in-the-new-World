@@ -9,4 +9,7 @@ locations = {
     ananatuba = { rank = city town_setup = empty_town }
     kuruaya = { rank = town town_setup = empty_town }
     arua_amazon = { rank = town town_setup = empty_town }
+
+    ### Jiyu
+    puyallup = { rank = city town_setup = empty_town }
 }

@@ -73,8 +73,8 @@ countries = {
 			include = "expl_world"
 
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
+				type = republic
+				heir_selection = oligarchic_elective
 				ruler = random
 			}
 
@@ -262,5 +262,164 @@ countries = {
 
 		}
 
+		# Potawatomi - POT
+		POT = {
+
+			own_control_core = {
+				cheboygan wequetong asiniike manistee
+				muskegon onekama mastigon
+				saganing
+			}
+
+			include = "expl_world"
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+
+			country_rank = rank_duchy
+			capital = mayaimi
+
+		}
+
+		# Sauk - SAU
+		SAU = {
+
+			own_control_core = {
+				saginaw shebeon tittabawassee
+			}
+
+			include = "expl_world"
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+
+			country_rank = rank_duchy
+			capital = mayaimi
+
+		}
+
+		# Fox - FOX
+		FOX = {
+
+			own_control_core = {
+				wabenasibi
+				osaakiiwaki shiawasee waawiiyaataanong
+			}
+
+			include = "expl_world"
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+
+			country_rank = rank_duchy
+			capital = mayaimi
+
+		}
+
+		# Ho-Chunk - HCH
+		HCH = {
+
+			own_control_core = {
+				manitowoc
+				millioke kenosha sheboygan
+			}
+
+			include = "expl_world"
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+
+			country_rank = rank_duchy
+			capital = mayaimi
+
+		}
+
+		# Odawa - ODA
+		ODA = {
+
+			own_control_core = {
+				menesetung saugeen dehskan_ziibi nochemoweniing
+				etharita
+			}
+
+			include = "expl_world"
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+
+			country_rank = rank_duchy
+			capital = mayaimi
+
+		}
+
+		# Mexica - MCA
+		MCA = {
+
+			own_control_core = {
+				xaltocan tehotihuacan culhuacan tetzcoco apan
+				tenochtitlan tlacopan azcapotzalco chalco xochimilco ajusco_mountains popocatepetl_mountains texcoco_lake
+				axochiapan cuauhnahuac quauhquechollan huaxtepec itzocan amaticoztitlan
+				tlapan ometepec oapan jicayan zacatepec
+				yohualtepec huajuapan silacayoapam chiautla cuauhteopan tlazcozauhtitlan
+				yopitzinco tixtla chilapa tecoanapa
+				cihuatlan tecpan ixtapan zacatollan teotepec
+				tlapacoya pachyohcan atocpan zempoala tollantzinco
+				axocopan zimapan ixmiquilpan cadereyta tecozautla
+
+				taximaroa tzitacuaro zinapecuaro guayangareo tiripetio tacambaro tzintzuntzan
+				cuitzeo churumekua tuzantla caracuaro puruaran
+				huandacareo acambaro maravatio yuririapundaro zacapu
+				xacona zula_michoacan tlazazalca angamacutiro
+				xilotlan erongaricuaro patzcuaro aguacana uruapan tinguindin tancitaro
+				coliman tlacalahuastla caxitlan coahuayana chucutitlan apatzingan
+				teloloapan ajuchitlan cutzamala tepecoacuilco tetellan zompanco
+				oztoman tlachco temascaltepec zacazonapan
+				malinalco tlalpujahua tollohcan ixtlahuaca ninil teotenanco
+
+				tizatlan tepeticpac ocotelolco quiahuixtlan huexotzinco cholollan
+				xicotepec zacatlan tetela ixtacamaxtitlan tepeyahualco
+				tepeyacac tecalco tecamachalco tehuacan tepexi
+				tlatlauquitepec nauhtlan tuzapan papantla tlapacoyan cuyuxquihui
+				xalapa xalacinco mizantla teziutlan
+				tuxpan teayotlan pantepec
+
+				mixquiahuala tollan cuauhtitlan xilotepec ixtachichimecapan kerhiretarhu
+				tetzapotitlan huayacocotla tutotepec
+				metztitlan jalpan tziuhcoac oxtlipan
+				copuz cocomacan mo_o_ti pechichitane xiriquitzio nat_tha_hi penlamu
+				uza pame otomi tanchaycha tangamanga hnahnu huaxcama
+				ozuluama panuco tamtoc
+			}
+
+			include = "expl_world"
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+
+			country_rank = rank_duchy
+			capital = mayaimi
+
+		}
+
 	}
+
+	
 }

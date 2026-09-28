@@ -139,3 +139,6 @@
   needs_of_the_mother.5.title: "The Crown Turns Away"
   needs_of_the_mother.5.desc: "The colony’s support has fallen to nothing and its pleas are no longer receiving aid."
   needs_of_the_mother.5.a: "The burden falls squarely upon us."
+
+  ### Path of Jiyu
+  path_of_jiyu: "Path of Jiyū"

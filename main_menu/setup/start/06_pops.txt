@@ -14265,39 +14265,51 @@ locations = {
       define_pop  = {  type = tribesmen  culture = halkomelem_culture religion = salishan_totemism size = 0.531 }
    }
    saanich = {
-      define_pop  = {  type = peasants  culture = wu_culture religion = hindu size = 1.091 }
-      define_pop  = {  type = peasants  culture = saigoku_culture religion = shinto size = 3.496 }
+      define_pop  = {  type = peasants  culture = wu_culture religion = hindu size = 29.289 }
+      define_pop  = {  type = peasants  culture = saigoku_culture religion = shinto size = 7.142 }
+      define_pop  = {  type = nobles  culture = saigoku_culture religion = shinto size = 2.196 }
+      define_pop  = {  type = soldiers  culture = saigoku_culture religion = shinto size = 4.736 }
    }
    stz_uminus = {
-      define_pop  = {  type = peasants  culture = wu_culture religion = hindu size = 1.136 }
-      define_pop  = {  type = peasants  culture = saigoku_culture religion = shinto size = 3.278 }
+      define_pop  = {  type = peasants  culture = wu_culture religion = hindu size = 4.795 }
+      define_pop  = {  type = peasants  culture = saigoku_culture religion = shinto size = 1.425 }
    }
    ditidaht = {
-      define_pop  = {  type = peasants  culture = wu_culture religion = hindu size = 1.000 }
-      define_pop  = {  type = peasants  culture = saigoku_culture religion = shinto size = 2.801 }
+      define_pop  = {  type = peasants  culture = wu_culture religion = hindu size = 4.524 }
+      define_pop  = {  type = peasants  culture = saigoku_culture religion = shinto size = 4.046 }
    }
    pentlatch = {
       define_pop  = {  type = peasants  culture = wu_culture religion = hindu size = 1.202 }
       define_pop  = {  type = peasants  culture = saigoku_culture religion = shinto size = 3.682 }
    }
    ucluelet = {
-      define_pop  = {  type = peasants  culture = wu_culture religion = hindu size = 1.513 }
-      define_pop  = {  type = peasants  culture = saigoku_culture religion = shinto size = 4.063 }
+      define_pop  = {  type = peasants  culture = wu_culture religion = hindu size = 6.860 }
+      define_pop  = {  type = peasants  culture = saigoku_culture religion = shinto size = 5.338 }
    }
    k_omoks = {
       define_pop  = {  type = tribesmen  culture = k_omoks_culture religion = salishan_totemism size = 0.212 }
+      define_pop  = {  type = peasants  culture = wu_culture religion = hindu size = 6.134 }
+      define_pop  = {  type = peasants  culture = saigoku_culture religion = shinto size = 1.725 }
    }
    maaqtusiis = {
       define_pop  = {  type = tribesmen  culture = nootka_culture religion = salishan_totemism size = 0.212 }
+      define_pop  = {  type = peasants  culture = wu_culture religion = hindu size = 6.128 }
+      define_pop  = {  type = peasants  culture = saigoku_culture religion = shinto size = 1.142 }
    }
    yuquot = {
       define_pop  = {  type = tribesmen  culture = nootka_culture religion = salishan_totemism size = 0.212 }
+      define_pop  = {  type = peasants  culture = wu_culture religion = hindu size = 5.662 }
+      define_pop  = {  type = peasants  culture = saigoku_culture religion = shinto size = 1.181 }
    }
    tlatlasikwala = {
       define_pop  = {  type = tribesmen  culture = kwakiutl_culture religion = salishan_totemism size = 0.212 }
+      define_pop  = {  type = peasants  culture = wu_culture religion = hindu size = 5.739 }
+      define_pop  = {  type = peasants  culture = saigoku_culture religion = shinto size = 1.090 }
    }
    ma_amtagila = {
       define_pop  = {  type = tribesmen  culture = kwakiutl_culture religion = salishan_totemism size = 0.212 }
+      define_pop  = {  type = peasants  culture = wu_culture religion = hindu size = 5.367 }
+      define_pop  = {  type = peasants  culture = saigoku_culture religion = shinto size = 1.207 }
    }
    squamish = {
       define_pop  = {  type = tribesmen  culture = squamish_culture religion = salishan_totemism size = 0.265 }

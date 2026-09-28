@@ -66,9 +66,10 @@ countries = {
 			own_control_core = {
 				stlpulmsh chehalis chala_at sklallam twana makah
 				puyallup kittikas duwamish snohomish skagit nisqually
-				saanich stz_uminus ditidaht pentlatch ucluelet
 				wishram klikitat mamachatpam pa_kiut_lema wanapum
 			}
+
+			starting_technology_level = 3
 
 			include = "expl_world"
 
@@ -80,6 +81,30 @@ countries = {
 
 			country_rank = rank_duchy
 			capital = puyallup
+
+		}
+
+		# Kairai Bankūbā - KBK
+
+		KBK = {
+
+			own_control_core = {
+				saanich stz_uminus ditidaht pentlatch ucluelet
+				k_omoks maaqtusiis yuquot tlatlasikwala ma_amtagila
+			}
+
+			starting_technology_level = 3
+
+			include = "expl_world"
+
+			government = {
+				type = republic
+				heir_selection = oligarchic_elective
+				ruler = random
+			}
+
+			country_rank = rank_duchy
+			capital = saanich
 
 		}
 

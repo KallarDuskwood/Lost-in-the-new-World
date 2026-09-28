@@ -1,0 +1,101 @@
+namespace = path_of_jiyu
+
+path_of_jiyu.1 = {
+	type = country_event
+	category = situation_event
+	fire_only_once = yes
+	title = path_of_jiyu.1.title
+	desc = path_of_jiyu.1.desc
+	outcome = neutral
+	image = "gfx/interface/illustrations/situation/path_of_jiyu.dds"
+
+	trigger = {
+		situation:path_of_jiyu = {
+			situation_is_active = yes
+		}
+	}
+
+	option = {
+		name = path_of_jiyu.1.a
+	}
+}
+
+path_of_jiyu.2 = {
+	type = country_event
+	category = situation_event
+	fire_only_once = yes
+	title = path_of_jiyu.2.title
+	desc = path_of_jiyu.2.desc
+	outcome = neutral
+	image = "gfx/interface/illustrations/situation/path_of_jiyu.dds"
+
+	trigger = {
+		situation:path_of_jiyu = {
+			situation_is_active = yes
+		}
+	}
+
+	option = {
+		name = path_of_jiyu.2.a
+	}
+}
+
+path_of_jiyu.3 = {
+	type = country_event
+	category = situation_event
+	fire_only_once = yes
+	title = path_of_jiyu.3.title
+	desc = path_of_jiyu.3.desc
+	outcome = neutral
+	image = "gfx/interface/illustrations/situation/path_of_jiyu.dds"
+
+	trigger = {
+		situation:path_of_jiyu = {
+			situation_is_active = yes
+		}
+	}
+
+	option = {
+		name = path_of_jiyu.3.a
+	}
+}
+
+path_of_jiyu.4 = {
+	type = country_event
+	category = situation_event
+	fire_only_once = yes
+	title = path_of_jiyu.4.title
+	desc = path_of_jiyu.4.desc
+	outcome = neutral
+	image = "gfx/interface/illustrations/situation/path_of_jiyu.dds"
+
+	trigger = {
+		situation:path_of_jiyu = {
+			situation_is_active = yes
+		}
+	}
+
+	option = {
+		name = path_of_jiyu.4.a
+	}
+}
+
+path_of_jiyu.5 = {
+	type = country_event
+	category = situation_event
+	fire_only_once = yes
+	title = path_of_jiyu.5.title
+	desc = path_of_jiyu.5.desc
+	outcome = neutral
+	image = "gfx/interface/illustrations/situation/path_of_jiyu.dds"
+
+	trigger = {
+		situation:path_of_jiyu = {
+			situation_is_active = yes
+		}
+	}
+
+	option = {
+		name = path_of_jiyu.5.a
+	}
+}

@@ -17,11 +17,25 @@ nw_trigger_start_events = {
             
 		}
 
+         c:JIY = {
+			trigger_event_silently = path_of_jiyu.1 ### Startup event for Jiyū
+            set_variable = old_world_colony
+            set_variable = jiyu_startup
+            set_variable = { name = dusk_of_the_old_world_migrated_pops value = 0 }
+		}
+
         every_country = {
             limit = {
                 has_variable = old_world_colony
             }
             activate_situation = situation:dusk_of_the_old_world
+        }
+
+        every_country = {
+            limit = {
+                has_variable = jiyu_startup
+            }
+            activate_situation = situation:path_of_jiyu
         }
     }
 }

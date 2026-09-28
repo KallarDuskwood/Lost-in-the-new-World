@@ -1048,6 +1048,23 @@ building_manager = {
    seat_of_cardinal = { tag = NAP level = 1 location = naples }
    seat_of_cardinal = { tag = PRO level = 1 location = aix_en_provence }
    seat_of_cardinal = { tag = CAS level = 1 location = cartagena }
+   seat_of_cardinal = { tag = PAP level = 1 location = avignon }
+   seat_of_cardinal = { tag = PAP level = 1 location = rome }
+   seat_of_cardinal = { tag = PAP level = 1 location = tivoli }
+   seat_of_cardinal = { tag = PAP level = 1 location = palestrina }
+   seat_of_cardinal = { tag = PAP level = 1 location = velletri }
+   seat_of_cardinal = { tag = FRA level = 1 location = toulouse }
+   seat_of_cardinal = { tag = FRA level = 1 location = bazas }
+   seat_of_cardinal = { tag = FRA level = 1 location = lyon }
+   seat_of_cardinal = { tag = FRA level = 1 location = langres }
+   seat_of_cardinal = { tag = FRA level = 1 location = paris }
+   seat_of_cardinal = { tag = FRA level = 1 location = bourges }
+   seat_of_cardinal = { tag = NRB level = 1 location = narbonne }
+   seat_of_cardinal = { tag = AUX level = 1 location = auxerre }
+   seat_of_cardinal = { tag = NAP level = 1 location = manfredonia }
+   seat_of_cardinal = { tag = NAP level = 1 location = naples }
+   seat_of_cardinal = { tag = PRO level = 1 location = aix_en_provence }
+   seat_of_cardinal = { tag = CAS level = 1 location = cartagena }
    castle = { tag = SWE level = 1 location = stockholm }
    castle = { tag = SWE level = 1 location = kalmar }
    castle = { tag = SWE level = 1 location = abo }

@@ -41,4 +41,10 @@
   amz_flavor.7.desc: "The Native Assimilation Act was a series of laws meant to regulate the integration of native populations into colonial society, encouraging the adoption of the settlers' culture and religion. It was a result of less and less support from the homeland and marks a pivot point of local self-governance."
   amz_flavor.7.a: "Implement the act"
   amz_flavor.7.b: "Reject the act"
+
+  ### Jiyu
+  path_of_jiyu.1.title: "The Path of Jiyū"
+  path_of_jiyu.1.entry: "$path_of_jiyu.1.title$"
+  path_of_jiyu.1.desc: "If one would believe it, Jiyū just a few years ago was nonexistent, and neither was it Japanese. Long have our people been kept in chains by the so called "Mandate of Heaven" and yet, they could not keep us down forever. When we heard that the communication with the mainland was lost we took our chance, and now we have our freedom, our Jiyū.\n\nNow our oppressors are under our thumb, and we are faced with a decision that will define our nation."
+  path_of_jiyu.1.a: "Are we any better than those who kept us in chains?"
   

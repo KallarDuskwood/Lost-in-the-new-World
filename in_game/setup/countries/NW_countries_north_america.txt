@@ -16,6 +16,15 @@ JIY = {
 
 }
 
+### Kairai Bankūbā ###
+KBK = {
+    color = rgb { 252 186 3 }
+
+    culture_definition = saigoku_culture
+    religion_definition = shinto
+
+}
+
 ### Hadia ###
 HAD = {
     color = map_haida_c

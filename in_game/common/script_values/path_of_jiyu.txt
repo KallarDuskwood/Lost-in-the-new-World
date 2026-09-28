@@ -1,0 +1,7 @@
+﻿percentage_of_japanese_share = {
+	value = "culture_group_percentage_in_country(culture_group:japanese_group)"
+}
+
+percentage_of_chinese_share = {
+	value = "culture_group_percentage_in_country(culture_group:chinese_group)"
+}

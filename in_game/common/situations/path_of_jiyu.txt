@@ -1,0 +1,76 @@
+path_of_jiyu = {
+    monthly_spawn_chance = 0
+
+    can_start = {
+		#Activated by event
+		always = no
+	}
+
+    can_end = {
+		custom_tooltip = {
+			text = path_of_jiyu_can_end_tt
+			has_global_variable = path_of_jiyu_ended
+		}
+	}
+
+    visible = {
+        capital ?= {
+			continent = continent:america
+		}
+        has_variable = old_world_colony
+    }
+
+    on_start = {
+        if = {
+            limit = {
+                has_variable = old_world_colony
+                NOT = { has_variable = nw_epic_old_world_chain_started }
+            }
+            set_variable = nw_epic_old_world_chain_started
+            trigger_event_non_silently = { id = nw_epic_old_world.1 months = 6 }
+        }
+
+        c:JIY = {
+            set_variable = {
+                name = path_of_jiyu_japanese_share
+                value = percentage_of_japanese_share
+            }
+            set_variable = {
+                name = path_of_jiyu_chinese_share
+                value = percentage_of_chinese_share
+            }
+        }
+    }
+
+    on_monthly = {
+        every_country = {
+            limit = {
+                has_variable = old_world_colony
+                is_situation_active = situation:path_of_jiyu
+            }
+            
+            random_list = {
+
+                100 = { trigger_event_non_silently = nw_path_of_jiyu.1 }
+                10 = { trigger_event_non_silently = nw_path_of_jiyu.2 }
+                10 = { trigger_event_non_silently = nw_path_of_jiyu.3 }
+                10 = { trigger_event_non_silently = nw_path_of_jiyu.4 }
+                10 = { trigger_event_non_silently = nw_path_of_jiyu.5 }
+                10 = { trigger_event_non_silently = nw_path_of_jiyu.6 }
+            }
+        }
+
+        
+
+        c:JIY = {
+            set_variable = {
+                name = path_of_jiyu_japanese_share
+                value = percentage_of_japanese_share
+            }
+        }
+
+    }
+
+    
+
+}

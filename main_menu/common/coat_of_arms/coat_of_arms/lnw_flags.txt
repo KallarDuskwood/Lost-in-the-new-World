@@ -1,0 +1,35 @@
+NNB = {
+    pattern = "pattern_solid.dds"
+    color1 = "white"
+    textured_emblem = {
+        texture = "te_new_nurn.dds"
+        instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+    }
+}
+
+AMZ = {
+    pattern = "pattern_solid.dds"
+    color1 = "white"
+    textured_emblem = {
+        texture = "te_amazonia.dds"
+        instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+    }
+}
+
+JIY = {
+    pattern = "pattern_solid.dds"
+    color1 = "white"
+    textured_emblem = {
+        texture = "te_jiyu.dds"
+        instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+    }
+}
+
+HIA = {
+    pattern = "pattern_solid.dds"
+    color1 = "white"
+    textured_emblem = {
+        texture = "te_haida_flag.dds"
+        instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+    }
+}

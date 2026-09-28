@@ -2364,7 +2364,7 @@ NDiplomacy = {
 
 	ASK_FOR_MONEY_ALERT_ADVANCE_MONTHS = 60			# How many months in advance to notify that action will be available. Negative number disables the alert entirely
 
-	POSITIVE_OPINION_FROM_ENFORCED_PEACE_WARSCORE = -10 # If the country protected with enforced peace had lower warscore than this, actor will get positive opinion from their side
+	POSITIVE_OPINION_FROM_ENFORCED_PEACE_WARSCORE = -10 # If the country protected with enforced peace HIA lower warscore than this, actor will get positive opinion from their side
 
 	# Intel fog thresholds — spy network level required to reveal each data tier
 	INTEL_THRESHOLD_RULER_STATS       = 5

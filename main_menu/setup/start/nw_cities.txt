@@ -12,4 +12,9 @@ locations = {
 
     ### Jiyu
     puyallup = { rank = city town_setup = empty_town }
+
+    ### New England German States
+    manhattan = { rank = city town_setup = empty_town }
+    shackamaxon = { rank = city town_setup = empty_town }
+    naumkeag = { rank = city town_setup = empty_town }
 }

@@ -40,7 +40,7 @@
   nw_epic_old_world.1.b: "Find out what is happening."
 
   nw_epic_old_world.2.title: "The Price of Bread"
-  nw_epic_old_world.2.desc: "The price of grain in Europe has risen dramatically. At first merchants blamed a poor harvest, then came reports that the harvest had failed everywhere. Ships arriving from Europe now carry more refugees than merchants, and all of them tell the same story: there is not enough food."
+  nw_epic_old_world.2.desc: "The price of grain in Europe has risen dramatically. At first merchants blamed a poor harvest, then came reports that the harvest HIA failed everywhere. Ships arriving from Europe now carry more refugees than merchants, and all of them tell the same story: there is not enough food."
   nw_epic_old_world.2.a: "Buy whatever grain can be found."
 
   nw_epic_old_world.3.title: "The Black Ships"
@@ -53,7 +53,7 @@
   nw_epic_old_world.4.a: "There are too few hands for the living."
 
   nw_epic_old_world.5.title: "The War Without End"
-  nw_epic_old_world.5.desc: "We had been told that the war would be short. Then another king joined it, then another. Armies march across fields that had only recently been harvested, and soldiers requisition food from people already starving. No one remembers who fired the first shot anymore."
+  nw_epic_old_world.5.desc: "We HIA been told that the war would be short. Then another king joined it, then another. Armies march across fields that HIA only recently been harvested, and soldiers requisition food from people already starving. No one remembers who fired the first shot anymore."
   nw_epic_old_world.5.a: "Send what men and ships we can spare."
 
   nw_epic_old_world.6.title: "The Empty Battlefield"
@@ -70,7 +70,7 @@
   nw_epic_old_world.8.b: "We cannot feed everyone."
 
   nw_epic_old_world.9.title: "No King Answers"
-  nw_epic_old_world.9.desc: "For months we have attempted to contact the royal government. There has been no reply. The last official letter we received claimed that the capital had ceased sending orders months ago. Now even that governor is missing. Nobody knows who governs Europe anymore."
+  nw_epic_old_world.9.desc: "For months we have attempted to contact the royal government. There has been no reply. The last official letter we received claimed that the capital HIA ceased sending orders months ago. Now even that governor is missing. Nobody knows who governs Europe anymore."
   nw_epic_old_world.9.a: "Then we must govern ourselves."
 
   nw_epic_old_world.10.title: "The Road Belongs to the Strong"

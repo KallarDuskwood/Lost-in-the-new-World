@@ -38,8 +38,8 @@ countries = {
 
 		}
 
-		# Haida - HAD
-		HAD = {
+		# Haida - HIA
+		HIA = {
 
 			own_control_core = {
 				kiis_gwaay gwaay_haanas sm_algyax
@@ -262,7 +262,7 @@ countries = {
 			}
 
 			country_rank = rank_duchy
-			capital = mayaimi
+			capital = shackamaxon
 
 		}
 
@@ -283,7 +283,7 @@ countries = {
 			}
 
 			country_rank = rank_duchy
-			capital = mayaimi
+			capital = naumkeag
 
 		}
 

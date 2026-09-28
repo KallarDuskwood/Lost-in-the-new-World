@@ -12,7 +12,7 @@
   NW_DUSK_OF_THE_OLD_WORLD_MIGRATED_POPS: "Migrated Pops"
   NW_DUSK_OF_THE_OLD_WORLD_MIGRATED_POPS_DESC: "The total amount of refugee pops that have arrived through the Dusk of the Old World."
   NW_DUSK_OF_THE_OLD_WORLD_DURING_EVENT_INFO_HEADER: "What can we do?"
-  NW_DUSK_OF_THE_OLD_WORLD_DURING_EVENT_INFO_TEXT: "During this period we have acces to a special buildings based on the nation we play. \n\n[ShowBuildingTypeName('cathedral')]"
+  NW_DUSK_OF_THE_OLD_WORLD_DURING_EVENT_INFO_TEXT: "During this period we might have acces to a special buildings, events or actions based on the nation we play. Decisions made by other nations can also impact the situation. Working together with other nitions might be of intrest to us."
   
   nw_dusk_of_the_old_world.2.title: "Local Customs Fade"
   nw_dusk_of_the_old_world.2.desc: "As the old world grows more distant, local communities increasingly look to our own institutions, rites, and tongue for stability. Families once divided by memory and custom now begin to fold themselves into the culture and faith of the realm."

@@ -70,8 +70,8 @@ IRL = {
 
 }
 
-### England ###
-ENG = {
+### Edwardia ###
+EDW = {
     color = map_ENG
 
     culture_definition = english

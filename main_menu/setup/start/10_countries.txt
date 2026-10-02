@@ -25,7 +25,7 @@ countries = {
 			}
 
 			include = "expl_world"
-			starting_technology_level = 3
+			starting_technology_level = 5
 			
 			government = {
 				type = monarchy
@@ -48,6 +48,7 @@ countries = {
 			}
 
 			include = "expl_world"
+			starting_technology_level = 5
 
 			government = {
 				type = monarchy
@@ -69,9 +70,8 @@ countries = {
 				wishram klikitat mamachatpam pa_kiut_lema wanapum
 			}
 
-			starting_technology_level = 3
-
 			include = "expl_world"
+			starting_technology_level = 5
 
 			government = {
 				type = republic
@@ -93,9 +93,8 @@ countries = {
 				k_omoks maaqtusiis yuquot tlatlasikwala ma_amtagila
 			}
 
-			starting_technology_level = 3
-
 			include = "expl_world"
+			starting_technology_level = 5
 
 			government = {
 				type = republic
@@ -118,6 +117,7 @@ countries = {
 			}
 
 			include = "expl_world"
+			starting_technology_level = 5
 
 			government = {
 				type = monarchy
@@ -142,9 +142,8 @@ countries = {
 				matapedia
 			}
 
-			starting_technology_level = 3
-
 			include = "expl_world"
+			starting_technology_level = 5
 
 			government = {
 				type = monarchy
@@ -167,6 +166,7 @@ countries = {
 			}
 
 			include = "expl_world"
+			starting_technology_level = 5
 
 			government = {
 				type = monarchy
@@ -189,6 +189,7 @@ countries = {
 			}
 
 			include = "expl_world"
+			starting_technology_level = 5
 
 			government = {
 				type = monarchy
@@ -210,6 +211,7 @@ countries = {
 			}
 
 			include = "expl_world"
+			starting_technology_level = 5
 
 			government = {
 				type = monarchy
@@ -232,6 +234,7 @@ countries = {
 			}
 
 			include = "expl_world"
+			starting_technology_level = 5
 
 			government = {
 				type = monarchy
@@ -254,6 +257,7 @@ countries = {
 			}
 
 			include = "expl_world"
+			starting_technology_level = 5
 
 			government = {
 				type = monarchy
@@ -275,6 +279,7 @@ countries = {
 			}
 
 			include = "expl_world"
+			starting_technology_level = 5
 
 			government = {
 				type = monarchy
@@ -297,6 +302,7 @@ countries = {
 			}
 
 			include = "expl_world"
+			starting_technology_level = 5
 
 			government = {
 				type = monarchy
@@ -317,6 +323,7 @@ countries = {
 			}
 
 			include = "expl_world"
+			starting_technology_level = 5
 
 			government = {
 				type = monarchy
@@ -338,6 +345,7 @@ countries = {
 			}
 
 			include = "expl_world"
+			starting_technology_level = 5
 
 			government = {
 				type = monarchy
@@ -359,6 +367,7 @@ countries = {
 			}
 
 			include = "expl_world"
+			starting_technology_level = 5
 
 			government = {
 				type = monarchy
@@ -380,6 +389,7 @@ countries = {
 			}
 
 			include = "expl_world"
+			starting_technology_level = 5
 
 			government = {
 				type = monarchy
@@ -400,6 +410,7 @@ countries = {
 			}
 
 			include = "expl_world"
+			starting_technology_level = 5
 
 			government = {
 				type = monarchy

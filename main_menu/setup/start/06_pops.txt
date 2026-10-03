@@ -72,19 +72,24 @@ locations = {
       define_pop  = {  type = tribesmen  culture = taino_culture religion = zemi_religion size = 1.556 }
    }
    marien = {
-      define_pop  = {  type = tribesmen  culture = taino_culture religion = zemi_religion size = 1.683 }
+      define_pop  = {  type = tribesmen  culture = taino_culture religion = zemi_religion size = 3.501 }
+      define_pop  = {  type = peasants  culture = venetian religion = catholic size = 5.350 }
    }
    iguamuco = {
-      define_pop  = {  type = tribesmen  culture = taino_culture religion = zemi_religion size = 1.713 }
+      define_pop  = {  type = tribesmen  culture = taino_culture religion = zemi_religion size = 3.607 }
+      define_pop  = {  type = peasants  culture = venetian religion = catholic size = 5.886 }
    }
    cahay = {
       define_pop  = {  type = tribesmen  culture = taino_culture religion = zemi_religion size = 2.149 }
+      define_pop  = {  type = peasants  culture = venetian religion = catholic size = 7.264 }
    }
    jaragua = {
       define_pop  = {  type = tribesmen  culture = taino_culture religion = zemi_religion size = 2.042 }
+      define_pop  = {  type = peasants  culture = venetian religion = catholic size = 41.934 }
    }
    guanabo = {
-      define_pop  = {  type = tribesmen  culture = ciboney religion = zemi_religion size = 0.469 }
+      define_pop  = {  type = tribesmen  culture = ciboney religion = zemi_religion size = 1.293 }
+      define_pop  = {  type = peasants  culture = venetian religion = catholic size = 2.820 }
    }
    baracoa = {
       define_pop  = {  type = tribesmen  culture = ciboney religion = zemi_religion size = 0.876 }
@@ -4770,12 +4775,15 @@ locations = {
    }
    shawmut = {
       define_pop  = {  type = tribesmen  culture = massachusett_culture religion = midewiwin_religion size = 4.023 }
+      define_pop  = {  type = peasants  culture = holsatian religion = catholic size = 7.352 }
    }
    naumkeag = {
       define_pop  = {  type = tribesmen  culture = massachusett_culture religion = midewiwin_religion size = 3.675 }
+      define_pop  = {  type = peasants  culture = holsatian religion = catholic size = 31.273 }
    }
    assabet = {
-      define_pop  = {  type = tribesmen  culture = massachusett_culture religion = midewiwin_religion size = 4.236 }
+      define_pop  = {  type = peasants  culture = holsatian religion = catholic size = 9.869 }
+      define_pop  = {  type = tribesmen  culture = massachusett_culture religion = midewiwin_religion size = 3.683 }
    }
    patuxet = {
       define_pop  = {  type = tribesmen  culture = wampanoag_culture religion = midewiwin_religion size = 3.412 }
@@ -5049,9 +5057,11 @@ locations = {
    }
    nashua = {
       define_pop  = {  type = tribesmen  culture = pennacook_culture religion = midewiwin_religion size = 2.850 }
+      define_pop  = {  type = peasants  culture = holsatian religion = catholic size = 6.251 }
    }
    squamscott = {
-      define_pop  = {  type = tribesmen  culture = pennacook_culture religion = midewiwin_religion size = 1.340 }
+      define_pop  = {  type = tribesmen  culture = pennacook_culture religion = midewiwin_religion size = 4.398 }
+      define_pop  = {  type = peasants  culture = holsatian religion = catholic size = 8.917 }
    }
    pennacook = {
       define_pop  = {  type = tribesmen  culture = pennacook_culture religion = midewiwin_religion size = 2.973 }
@@ -13208,6 +13218,7 @@ locations = {
    }
    ciguayo = {
       define_pop  = {  type = tribesmen  culture = ciguayo_culture religion = zemi_religion size = 1.031 }
+      define_pop  = {  type = peasants  culture = venetian religion = catholic size = 6.325 }
    }
    cubao = {
       define_pop  = {  type = tribesmen  culture = ciguayo_culture religion = zemi_religion size = 1.031 }
@@ -13219,7 +13230,8 @@ locations = {
       define_pop  = {  type = tribesmen  culture = ciguayo_culture religion = zemi_religion size = 0.928 }
    }
    samana = {
-      define_pop  = {  type = tribesmen  culture = ciguayo_culture religion = zemi_religion size = 0.745 }
+      define_pop  = {  type = tribesmen  culture = ciguayo_culture religion = zemi_religion size = 1.662 }
+      define_pop  = {  type = peasants  culture = venetian religion = catholic size = 4.557 }
    }
    bavaro = {
       define_pop  = {  type = tribesmen  culture = ciguayo_culture religion = zemi_religion size = 0.931 }
@@ -13243,25 +13255,31 @@ locations = {
       define_pop  = {  type = tribesmen  culture = macorix_culture religion = zemi_religion size = 1.579 }
    }
    haniguayagua = {
-      define_pop  = {  type = tribesmen  culture = ciboney religion = zemi_religion size = 1.500 }
+      define_pop  = {  type = tribesmen  culture = ciboney religion = zemi_religion size = 2.728 }
+      define_pop  = {  type = peasants  culture = venetian religion = catholic size = 4.613 }
    }
    yaquimo = {
       define_pop  = {  type = tribesmen  culture = macorix_culture religion = zemi_religion size = 1.500 }
    }
    yaguana = {
-      define_pop  = {  type = tribesmen  culture = taino_culture religion = zemi_religion size = 1.500 }
+      define_pop  = {  type = tribesmen  culture = taino_culture religion = zemi_religion size = 3.228 }
+      define_pop  = {  type = peasants  culture = venetian religion = catholic size = 5.244 }
    }
    guacayakima = {
-      define_pop  = {  type = tribesmen  culture = ciboney religion = zemi_religion size = 2.469 }
+      define_pop  = {  type = tribesmen  culture = ciboney religion = zemi_religion size = 3.372 }
+      define_pop  = {  type = peasants  culture = venetian religion = catholic size = 3.338 }
    }
    tortuga = {
-      define_pop  = {  type = tribesmen  culture = ciboney religion = zemi_religion size = 1.102 }
+      define_pop  = {  type = tribesmen  culture = ciboney religion = zemi_religion size = 1.873 }
+      define_pop  = {  type = peasants  culture = venetian religion = catholic size = 4.862 }
    }
    baynoa = {
       define_pop  = {  type = tribesmen  culture = ciboney religion = zemi_religion size = 1.102 }
+      define_pop  = {  type = peasants  culture = venetian religion = catholic size = 4.034 }
    }
    guahaba = {
-      define_pop  = {  type = tribesmen  culture = ciboney religion = zemi_religion size = 1.102 }
+      define_pop  = {  type = tribesmen  culture = ciboney religion = zemi_religion size = 2.325 }
+      define_pop  = {  type = peasants  culture = venetian religion = catholic size = 3.095 }
    }
    cibao = {
       define_pop  = {  type = tribesmen  culture = taino_culture religion = zemi_religion size = 1.491 }

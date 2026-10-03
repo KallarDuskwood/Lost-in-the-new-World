@@ -13,6 +13,7 @@ locations = {
     ### Jiyu
     puyallup = { rank = city town_setup = japan_city }
     sklallam = { rank = town town_setup = japan_town }
+    saanich = { rank = town town_setup = japan_town }
 
     ### New England German States
     manhattan = { rank = city town_setup = settler_town_port }
@@ -33,4 +34,7 @@ locations = {
 
     ### New Burgundy
     ituzaingo = { rank = city town_setup = settler_town_port }
+
+    ### Haida
+    kiis_gwaay = { rank = city town_setup = settler_town_port }
 }

@@ -23,6 +23,9 @@ nw_dusk_of_the_old_world.1 = {
                 10 = { culture:danube_bavarian = {save_scope_as = target_culture} }
                 10 = { culture:portuguese = {save_scope_as = target_culture} }
                 10 = { culture:venetian = {save_scope_as = target_culture} }
+                10 = { culture:brandenburgish = {save_scope_as = target_culture} }
+                10 = { culture:saigoku_culture = {save_scope_as = target_culture} }
+                10 = { culture:burgundian = {save_scope_as = target_culture} }
             }
 
         }

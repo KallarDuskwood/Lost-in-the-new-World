@@ -17,6 +17,48 @@ nw_trigger_start_events = {
             
 		}
 
+        c:IRL = {
+            set_variable = old_world_colony
+            set_variable = { name = dusk_of_the_old_world_migrated_pops value = 0 }
+            
+		}
+
+        c:NHB = {
+            set_variable = old_world_colony
+            set_variable = { name = dusk_of_the_old_world_migrated_pops value = 0 }
+            
+		}
+
+        c:NNB = {
+            set_variable = old_world_colony
+            set_variable = { name = dusk_of_the_old_world_migrated_pops value = 0 }
+            
+		}
+
+        c:NLB = {
+            set_variable = old_world_colony
+            set_variable = { name = dusk_of_the_old_world_migrated_pops value = 0 }
+            
+		}
+
+        c:EDW = {
+            set_variable = old_world_colony
+            set_variable = { name = dusk_of_the_old_world_migrated_pops value = 0 }
+            
+		}
+
+        c:HTI = {
+            set_variable = old_world_colony
+            set_variable = { name = dusk_of_the_old_world_migrated_pops value = 0 }
+            
+		}
+
+        c:NBY = {
+            set_variable = old_world_colony
+            set_variable = { name = dusk_of_the_old_world_migrated_pops value = 0 }
+            
+		}
+
          c:JIY = {
 			trigger_event_silently = path_of_jiyu.1 ### Startup event for Jiyū
             set_variable = old_world_colony
@@ -24,11 +66,31 @@ nw_trigger_start_events = {
             set_variable = { name = dusk_of_the_old_world_migrated_pops value = 0 }
 		}
 
+        c:HIA = {
+            set_variable = powerful_native_country
+		}
+
+        c:POT = {
+            set_variable = powerful_native_country
+		}
+
+        c:MCA = {
+            set_variable = powerful_native_country
+		}
+
         every_country = {
             limit = {
                 has_variable = old_world_colony
             }
             activate_situation = situation:dusk_of_the_old_world
+            add_country_modifier = { modifier = nw_extended_colonial_subsidies }
+        }
+
+        every_country = {
+            limit = {
+                has_variable = powerful_native_country
+            }
+            add_country_modifier = { modifier = nw_powerful_native_country }
         }
 
         every_country = {

@@ -56,7 +56,7 @@ NBY = {
 HTI = {
     color = rgb { 37 79 94 }
 
-    culture_definition = burgundian
+    culture_definition = venetian
     religion_definition = catholic
 
 }
@@ -84,7 +84,7 @@ NNB = {
     color = map_BRA
 
     culture_definition = brandenburgish
-    religion_definition = catholic
+    religion_definition = lutheran
 
 }
 
@@ -93,7 +93,7 @@ NHB = {
     color = rgb { 227 95 7 }
 
     culture_definition = brandenburgish
-    religion_definition = catholic
+    religion_definition = lutheran
 
 }
 
@@ -150,6 +150,6 @@ ODA = {
 MCA = {
 	color = map_aztec
 
-	culture_definition = bodewadomik_culture
-	religion_definition = catholic
+	culture_definition = nahua_culture
+	religion_definition = nahuatl
 }

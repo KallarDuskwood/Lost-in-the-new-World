@@ -1,0 +1,13 @@
+﻿nw_extended_colonial_subsidies = {
+	game_data = {
+		category = country
+	}
+	monthly_gold_income = 8
+}
+
+nw_powerful_native_country = {
+	game_data = {
+		category = country
+	}
+	monthly_gold_income = 5
+}

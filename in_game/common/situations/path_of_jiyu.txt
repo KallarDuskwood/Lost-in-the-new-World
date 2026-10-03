@@ -21,15 +21,6 @@ path_of_jiyu = {
     }
 
     on_start = {
-        if = {
-            limit = {
-                has_variable = old_world_colony
-                NOT = { has_variable = nw_epic_old_world_chain_started }
-            }
-            set_variable = nw_epic_old_world_chain_started
-            trigger_event_non_silently = { id = nw_epic_old_world.1 months = 6 }
-        }
-
         c:JIY = {
             set_variable = {
                 name = path_of_jiyu_japanese_share
@@ -45,7 +36,7 @@ path_of_jiyu = {
     on_monthly = {
         every_country = {
             limit = {
-                has_variable = old_world_colony
+                has_variable = jiyu_startup
                 is_situation_active = situation:path_of_jiyu
             }
             

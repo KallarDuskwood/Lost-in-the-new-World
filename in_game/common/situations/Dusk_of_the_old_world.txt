@@ -39,8 +39,8 @@ dusk_of_the_old_world = {
             }
             
             random_list = {
-
-                100 = { trigger_event_non_silently = nw_dusk_of_the_old_world.1 }
+                500 = {}
+                60 = { trigger_event_non_silently = nw_dusk_of_the_old_world.1 }
                 10 = { trigger_event_non_silently = nw_dusk_of_the_old_world.2 }
                 10 = { trigger_event_non_silently = nw_dusk_of_the_old_world.3 }
                 10 = { trigger_event_non_silently = nw_dusk_of_the_old_world.4 }

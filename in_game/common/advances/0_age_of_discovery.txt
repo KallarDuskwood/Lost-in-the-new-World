@@ -2,7 +2,7 @@
 # Public Health (always-available free tree)
 #####################################
 surgery_advance = {
-	starting_technology_level = 5
+	starting_technology_level = 6
 	age = age_3_discovery
 	icon = alchemy_advance
 

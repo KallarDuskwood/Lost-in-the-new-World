@@ -13,6 +13,10 @@
   NW_DUSK_OF_THE_OLD_WORLD_MIGRATED_POPS_DESC: "The total amount of refugee pops that have arrived through the Dusk of the Old World."
   NW_DUSK_OF_THE_OLD_WORLD_DURING_EVENT_INFO_HEADER: "What can we do?"
   NW_DUSK_OF_THE_OLD_WORLD_DURING_EVENT_INFO_TEXT: "During this period we might have acces to a special buildings, events or actions based on the nation we play. Decisions made by other nations can also impact the situation. Working together with other nitions might be of intrest to us."
+
+  nw_dusk_of_the_old_world.1.title: "Influx of Refugee Ships"
+  nw_dusk_of_the_old_world.1.desc: "Multiple ships have arrived from the old world carrying people looking for a new home. Of course, we have no choice but to take them in."
+  dusk_of_the_old_world.1.a: "Welcome them to our shores."
   
   nw_dusk_of_the_old_world.2.title: "Local Customs Fade"
   nw_dusk_of_the_old_world.2.desc: "As the old world grows more distant, local communities increasingly look to our own institutions, rites, and tongue for stability. Families once divided by memory and custom now begin to fold themselves into the culture and faith of the realm."
@@ -20,11 +24,11 @@
   nw_dusk_assimilation_tt: "Up to 20% of the non-assimilated population in a random owned location will adopt our culture and religion."
   
   nw_dusk_of_the_old_world.3.title: "A Ship Bearing Bad News"
-  nw_dusk_of_the_old_world.3.desc: "A battered ship limps into harbor with word from the old world. Its crew speaks of war, famine, and disease spreading through lands already strained beyond endurance. The rumors move faster than the sailors themselves, darkening the mood in every market and tavern."
+  nw_dusk_of_the_old_world.3.desc: "A battered ship limps into harbor with word from the old world. Its crew speaks of war, famine, and disease spreading through lands already strained beyond endurance. The rumors are bringing down the spirits of our people."
   dusk_of_the_old_world.3.a: "Spend some ducats to lift the spirits."
   dusk_of_the_old_world.3.b: "Let the grim news settle."
   nw_dusk_of_the_old_world.4.title: "An Enterprising Merchant"
-  nw_dusk_of_the_old_world.4.desc: "A merchant newly arrived from across the sea claims to have secured a rare cargo from the old world. The goods are battered by salt, guarded by sharp-eyed sailors, and priced with the confidence of someone who knows exactly how scarce they have become."
+  nw_dusk_of_the_old_world.4.desc: "A merchant newly arrived from across the sea claims to have secured a rare cargo from the old world. This could give us a good opportunity to boost our economy"
   dusk_of_the_old_world.4.a: "Buy the cargo."
   dusk_of_the_old_world.4.b: "Decline the offer."
   nw_dusk_of_the_old_world.5.title: "A City of New Hopes"

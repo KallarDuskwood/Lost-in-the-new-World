@@ -6443,52 +6443,62 @@ locations = {
       define_pop  = {  type = tribesmen  culture = myaamia_culture religion = mississippian_ceremonial size = 1.711 }
    }
    waawiiyaataanong = {
-      define_pop  = {  type = tribesmen  culture = meskwaki_culture religion = midewiwin_religion size = 2.553 }
+      define_pop  = {  type = tribesmen  culture = meskwaki_culture religion = midewiwin_religion size = 5.943 }
    }
    giwitatigweiasibi = {
       define_pop  = {  type = tribesmen  culture = kiwigapawa_culture religion = midewiwin_religion size = 2.693 }
    }
    osaakiiwaki = {
-      define_pop  = {  type = tribesmen  culture = osaakiiwaki_culture religion = midewiwin_religion size = 2.974 }
+      define_pop  = {  type = tribesmen  culture = osaakiiwaki_culture religion = midewiwin_religion size = 7.961 }
+      define_pop  = {  type = peasants  culture = osaakiiwaki_culture religion = midewiwin_religion size = 3.821 }
    }
    shiawasee = {
-      define_pop  = {  type = tribesmen  culture = meskwaki_culture religion = midewiwin_religion size = 2.132 }
+      define_pop  = {  type = tribesmen  culture = meskwaki_culture religion = midewiwin_religion size = 5.147 }
    }
    saginaw = {
-      define_pop  = {  type = tribesmen  culture = osaakiiwaki_culture religion = midewiwin_religion size = 1.992 }
+      define_pop  = {  type = tribesmen  culture = osaakiiwaki_culture religion = midewiwin_religion size = 17.171 }
+      define_pop  = {  type = peasants  culture = osaakiiwaki_culture religion = midewiwin_religion size = 8.376 }
    }
    shebeon = {
-      define_pop  = {  type = tribesmen  culture = osaakiiwaki_culture religion = midewiwin_religion size = 1.992 }
+      define_pop  = {  type = tribesmen  culture = osaakiiwaki_culture religion = midewiwin_religion size = 9.150 }
    }
    tittabawassee = {
-      define_pop  = {  type = tribesmen  culture = bodewadomik_culture religion = midewiwin_religion size = 0.841 }
+      define_pop  = {  type = tribesmen  culture = bodewadomik_culture religion = midewiwin_religion size = 7.569 }
    }
    saganing = {
-      define_pop  = {  type = tribesmen  culture = odawa_culture religion = midewiwin_religion size = 0.561 }
+      define_pop  = {  type = tribesmen  culture = odawa_culture religion = midewiwin_religion size = 12.007 }
+      define_pop  = {  type = peasants  culture = odawa_culture religion = midewiwin_religion size = 2.072 }
    }
    cheboygan = {
-      define_pop  = {  type = tribesmen  culture = odawa_culture religion = midewiwin_religion size = 0.420 }
+      define_pop  = {  type = tribesmen  culture = odawa_culture religion = midewiwin_religion size = 3.780 }
+      define_pop  = {  type = peasants  culture = odawa_culture religion = midewiwin_religion size = 1.372 }
    }
    wequetong = {
-      define_pop  = {  type = tribesmen  culture = bodewadomik_culture religion = midewiwin_religion size = 1.571 }
+      define_pop  = {  type = tribesmen  culture = bodewadomik_culture religion = midewiwin_religion size = 13.441 }
+      define_pop  = {  type = peasants  culture = bodewadomik_culture religion = midewiwin_religion size = 3.808 }
    }
    asiniike = {
-      define_pop  = {  type = tribesmen  culture = odawa_culture religion = midewiwin_religion size = 0.701 }
+      define_pop  = {  type = tribesmen  culture = odawa_culture religion = midewiwin_religion size = 5.333 }
+      define_pop  = {  type = peasants  culture = odawa_culture religion = midewiwin_religion size = 3.412 }
    }
    manistee = {
-      define_pop  = {  type = tribesmen  culture = bodewadomik_culture religion = midewiwin_religion size = 1.262 }
+      define_pop  = {  type = tribesmen  culture = bodewadomik_culture religion = midewiwin_religion size = 9.248 }
+      define_pop  = {  type = peasants  culture = bodewadomik_culture religion = midewiwin_religion size = 2.173 }
    }
    muskegon = {
-      define_pop  = {  type = tribesmen  culture = bodewadomik_culture religion = midewiwin_religion size = 1.122 }
+      define_pop  = {  type = tribesmen  culture = bodewadomik_culture religion = midewiwin_religion size = 9.309 }
+      define_pop  = {  type = peasants  culture = bodewadomik_culture religion = midewiwin_religion size = 0.935 }
    }
    onekama = {
-      define_pop  = {  type = tribesmen  culture = bodewadomik_culture religion = midewiwin_religion size = 1.262 }
+      define_pop  = {  type = tribesmen  culture = bodewadomik_culture religion = midewiwin_religion size = 8.608 }
+      define_pop  = {  type = peasants  culture = bodewadomik_culture religion = midewiwin_religion size = 2.102 }
    }
    mastigon = {
-      define_pop  = {  type = tribesmen  culture = bodewadomik_culture religion = midewiwin_religion size = 0.841 }
+      define_pop  = {  type = tribesmen  culture = bodewadomik_culture religion = midewiwin_religion size = 6.681 }
+      define_pop  = {  type = peasants  culture = bodewadomik_culture religion = midewiwin_religion size = 4.732 }
    }
    wabenasibi = {
-      define_pop  = {  type = tribesmen  culture = meskwaki_culture religion = midewiwin_religion size = 1.992 }
+      define_pop  = {  type = tribesmen  culture = meskwaki_culture religion = midewiwin_religion size = 5.838 }
    }
    owashtanong = {
       define_pop  = {  type = tribesmen  culture = mascouten_culture religion = midewiwin_religion size = 1.992 }
@@ -6953,25 +6963,31 @@ locations = {
       define_pop  = {  type = tribesmen  culture = natchez_culture religion = mississippian_ceremonial size = 1.442 }
    }
    bogue_chitto = {
-      define_pop  = {  type = tribesmen  culture = bayagoula_culture religion = mississippian_ceremonial size = 1.560 }
+      define_pop  = {  type = tribesmen  culture = bayagoula_culture religion = mississippian_ceremonial size = 1.053 }
+      define_pop  = {  type = peasants  culture = english religion = anglican size = 17.393 }
    }
    tangipahoa = {
-      define_pop  = {  type = tribesmen  culture = bayagoula_culture religion = mississippian_ceremonial size = 1.420 }
+      define_pop  = {  type = tribesmen  culture = bayagoula_culture religion = mississippian_ceremonial size = 0.586 }
+      define_pop  = {  type = peasants  culture = english religion = anglican size = 16.953 }
    }
    itihumma = {
-      define_pop  = {  type = tribesmen  culture = bayagoula_culture religion = mississippian_ceremonial size = 1.700 }
+      define_pop  = {  type = tribesmen  culture = bayagoula_culture religion = mississippian_ceremonial size = 0.759 }
+      define_pop  = {  type = peasants  culture = english religion = anglican size = 18.389 }
    }
    bulbancha = {
-      define_pop  = {  type = tribesmen  culture = chitimacha_culture religion = mississippian_ceremonial size = 1.560 }
+      define_pop  = {  type = peasants  culture = english religion = anglican size = 32.908 }
    }
    chawasha = {
-      define_pop  = {  type = tribesmen  culture = chitimacha_culture religion = mississippian_ceremonial size = 1.560 }
+      define_pop  = {  type = tribesmen  culture = chitimacha_culture religion = mississippian_ceremonial size = 1.295 }
+      define_pop  = {  type = peasants  culture = english religion = anglican size = 18.741 }
    }
    atchafalaya = {
-      define_pop  = {  type = tribesmen  culture = chitimacha_culture religion = mississippian_ceremonial size = 1.700 }
+      define_pop  = {  type = tribesmen  culture = chitimacha_culture religion = mississippian_ceremonial size = 1.147 }
+      define_pop  = {  type = peasants  culture = english religion = anglican size = 29.306 }
    }
    opelousa = {
-      define_pop  = {  type = tribesmen  culture = bayagoula_culture religion = mississippian_ceremonial size = 1.700 }
+      define_pop  = {  type = tribesmen  culture = bayagoula_culture religion = mississippian_ceremonial size = 0.967 }
+      define_pop  = {  type = peasants  culture = english religion = anglican size = 22.391 }
    }
    ciwat = {
       define_pop  = {  type = tribesmen  culture = atakapa_culture religion = atakapa_religion size = 1.560 }
@@ -8437,6 +8453,7 @@ locations = {
    }
    lokono = {
       define_pop  = {  type = tribesmen  culture = arawak_culture religion = zemi_religion size = 7.955 }
+      define_pop  = {  type = peasants  culture = nw_amazonian religion = catholic size = 10.747 }
    }
    mehin = {
       define_pop  = {  type = tribesmen  culture = timbira_culture religion = doi_wahire_religion size = 1.896 }
@@ -8667,13 +8684,16 @@ locations = {
       define_pop  = {  type = tribesmen  culture = kagwahiva_culture religion = tunpa_religion size = 4.014 }
    }
    nheengaiba = {
-      define_pop  = {  type = tribesmen  culture = marajo_culture religion = doi_wahire_religion size = 1.023 }
+      define_pop  = {  type = tribesmen  culture = marajo_culture religion = doi_wahire_religion size = 1.119 }
+      define_pop  = {  type = peasants  culture = nw_amazonian religion = catholic size = 6.084 }
    }
    arua_amazon = {
-      define_pop  = {  type = tribesmen  culture = marajo_culture religion = doi_wahire_religion size = 1.236 }
+      define_pop  = {  type = tribesmen  culture = marajo_culture religion = doi_wahire_religion size = 1.304 }
+      define_pop  = {  type = peasants  culture = nw_amazonian religion = catholic size = 6.022 }
    }
    ananatuba = {
       define_pop  = {  type = tribesmen  culture = marajo_culture religion = doi_wahire_religion size = 4.390 }
+      define_pop  = {  type = peasants  culture = nw_amazonian religion = catholic size = 58.124 }
    }
    arari = {
       define_pop  = {  type = tribesmen  culture = marajo_culture religion = doi_wahire_religion size = 10.843 }
@@ -8683,12 +8703,15 @@ locations = {
    }
    ariste = {
       define_pop  = {  type = tribesmen  culture = carib religion = zemi_religion size = 0.140 }
+      define_pop  = {  type = peasants  culture = nw_amazonian religion = catholic size = 7.436 }
    }
    mazagao = {
-      define_pop  = {  type = tribesmen  culture = carib religion = zemi_religion size = 21.268 }
+      define_pop  = {  type = tribesmen  culture = carib religion = zemi_religion size = 13.057 }
+      define_pop  = {  type = peasants  culture = nw_amazonian religion = catholic size = 13.839 }
    }
    araguari = {
-      define_pop  = {  type = tribesmen  culture = wapaji_culture religion = namandu_religion size = 14.242 }
+      define_pop  = {  type = tribesmen  culture = wapaji_culture religion = namandu_religion size = 10.468 }
+      define_pop  = {  type = peasants  culture = nw_amazonian religion = catholic size = 12.038 }
    }
    mairi = {
       define_pop  = {  type = tribesmen  culture = kaapor_culture religion = namandu_religion size = 2.413 }
@@ -8755,7 +8778,8 @@ locations = {
       define_pop  = {  type = tribesmen  culture = kuikuro_culture religion = akinha_ekugu_religion size = 1.877 }
    }
    kuruaya = {
-      define_pop  = {  type = tribesmen  culture = wapaji_culture religion = namandu_religion size = 0.121 }
+      define_pop  = {  type = tribesmen  culture = wapaji_culture religion = namandu_religion size = 6.128 }
+      define_pop  = {  type = peasants  culture = nw_amazonian religion = catholic size = 8.755 }
    }
    para_gaviao = {
       define_pop  = {  type = tribesmen  culture = timbira_culture religion = doi_wahire_religion size = 2.273 }
@@ -8860,22 +8884,28 @@ locations = {
       define_pop  = {  type = tribesmen  culture = wapaji_culture religion = namandu_religion size = 0.191 }
    }
    paru = {
-      define_pop  = {  type = tribesmen  culture = wapaji_culture religion = namandu_religion size = 5.061 }
+      define_pop  = {  type = tribesmen  culture = wapaji_culture religion = namandu_religion size = 7.512 }
+      define_pop  = {  type = peasants  culture = nw_amazonian religion = catholic size = 8.719 }
    }
    mariocai = {
       define_pop  = {  type = tribesmen  culture = marajo_culture religion = doi_wahire_religion size = 0.076 }
+      define_pop  = {  type = peasants  culture = nw_amazonian religion = catholic size = 7.654 }
    }
    oiampi = {
       define_pop  = {  type = tribesmen  culture = wapaji_culture religion = namandu_religion size = 6.995 }
+      define_pop  = {  type = peasants  culture = nw_amazonian religion = catholic size = 8.466 }
    }
    wayampi = {
-      define_pop  = {  type = tribesmen  culture = wapaji_culture religion = namandu_religion size = 8.706 }
+      define_pop  = {  type = tribesmen  culture = wapaji_culture religion = namandu_religion size = 6.334 }
+      define_pop  = {  type = peasants  culture = nw_amazonian religion = catholic size = 11.746 }
    }
    curumu = {
-      define_pop  = {  type = tribesmen  culture = marajo_culture religion = doi_wahire_religion size = 4.369 }
+      define_pop  = {  type = tribesmen  culture = marajo_culture religion = doi_wahire_religion size = 4.341 }
+      define_pop  = {  type = peasants  culture = nw_amazonian religion = catholic size = 7.168 }
    }
    anajas = {
-      define_pop  = {  type = tribesmen  culture = marajo_culture religion = doi_wahire_religion size = 10.777 }
+      define_pop  = {  type = tribesmen  culture = marajo_culture religion = doi_wahire_religion size = 4.204 }
+      define_pop  = {  type = peasants  culture = nw_amazonian religion = catholic size = 16.008 }
    }
    upaon_acu = {
       define_pop  = {  type = tribesmen  culture = tremembe_culture religion = namandu_religion size = 1.468 }
@@ -10899,10 +10929,11 @@ locations = {
       define_pop  = {  type = tribesmen  culture = gununa_kune_culture religion = tain_feyentun_religion size = 3.023 }
    }
    ituzaingo = {
-      define_pop  = {  type = tribesmen  culture = quirandi_culture religion = kenos_religion size = 2.926 }
+      define_pop  = {  type = peasants  culture = burgundian religion = catholic size = 40.192 }
    }
    tuvicha_mini = {
       define_pop  = {  type = tribesmen  culture = quirandi_culture religion = kenos_religion size = 3.137 }
+      define_pop  = {  type = peasants  culture = burgundian religion = catholic size = 17.092 }
    }
    tandil = {
       define_pop  = {  type = tribesmen  culture = quirandi_culture religion = kenos_religion size = 3.450 }
@@ -11287,6 +11318,7 @@ locations = {
       define_pop  = {  type = tribesmen  culture = yaros_culture religion = tunpa_religion size = 0.637 }
       define_pop  = {  type = tribesmen  culture = chana_culture religion = tunpa_religion size = 1.150 }
       define_pop  = {  type = tribesmen  culture = guenoa_culture religion = tunpa_religion size = 0.765 }
+      define_pop  = {  type = peasants  culture = burgundian religion = catholic size = 31.216 }
    }
    karendo = {
       define_pop  = {  type = tribesmen  culture = chana_culture religion = tunpa_religion size = 2.146 }
@@ -11298,18 +11330,22 @@ locations = {
    mbegua = {
       define_pop  = {  type = tribesmen  culture = chana_culture religion = tunpa_religion size = 1.090 }
       define_pop  = {  type = tribesmen  culture = guenoa_culture religion = tunpa_religion size = 1.633 }
+      define_pop  = {  type = peasants  culture = burgundian religion = catholic size = 29.588 }
    }
    timbu = {
       define_pop  = {  type = tribesmen  culture = chana_culture religion = tunpa_religion size = 2.084 }
       define_pop  = {  type = tribesmen  culture = moqoit_culture religion = nallagdigua_religion size = 1.122 }
+      define_pop  = {  type = peasants  culture = burgundian religion = catholic size = 26.379 }
    }
    yaros = {
       define_pop  = {  type = tribesmen  culture = bohan_culture religion = tunpa_religion size = 0.628 }
       define_pop  = {  type = tribesmen  culture = yaros_culture religion = tunpa_religion size = 0.942 }
+      define_pop  = {  type = peasants  culture = burgundian religion = catholic size = 26.631 }
    }
    bohan = {
       define_pop  = {  type = tribesmen  culture = bohan_culture religion = tunpa_religion size = 1.259 }
       define_pop  = {  type = tribesmen  culture = guenoa_culture religion = tunpa_religion size = 0.677 }
+      define_pop  = {  type = peasants  culture = burgundian religion = catholic size = 18.275 }
    }
    cuareim = {
       define_pop  = {  type = tribesmen  culture = bohan_culture religion = tunpa_religion size = 1.238 }
@@ -11318,6 +11354,7 @@ locations = {
    carapachay = {
       define_pop  = {  type = tribesmen  culture = ava_culture religion = tunpa_religion size = 1.130 }
       define_pop  = {  type = tribesmen  culture = guenoa_culture religion = tunpa_religion size = 1.694 }
+      define_pop  = {  type = peasants  culture = burgundian religion = catholic size = 20.922 }
    }
    charrua = {
       define_pop  = {  type = tribesmen  culture = charrua_culture religion = tunpa_religion size = 3.984 }
@@ -11334,6 +11371,7 @@ locations = {
    }
    ombu = {
       define_pop  = {  type = tribesmen  culture = charrua_culture religion = tunpa_religion size = 2.200 }
+      define_pop  = {  type = peasants  culture = burgundian religion = catholic size = 30.996 }
    }
    arachan = {
       define_pop  = {  type = tribesmen  culture = guenoa_culture religion = tunpa_religion size = 2.362 }
@@ -11354,14 +11392,17 @@ locations = {
    yaguari_guazu = {
       define_pop  = {  type = tribesmen  culture = chana_culture religion = tunpa_religion size = 0.734 }
       define_pop  = {  type = tribesmen  culture = guenoa_culture religion = tunpa_religion size = 2.203 }
+      define_pop  = {  type = peasants  culture = burgundian religion = catholic size = 17.962 }
    }
    gualeguay = {
       define_pop  = {  type = tribesmen  culture = chana_culture religion = tunpa_religion size = 0.577 }
       define_pop  = {  type = tribesmen  culture = guenoa_culture religion = tunpa_religion size = 1.731 }
+      define_pop  = {  type = peasants  culture = burgundian religion = catholic size = 31.131 }
    }
    nogoya = {
       define_pop  = {  type = tribesmen  culture = chana_culture religion = tunpa_religion size = 0.413 }
       define_pop  = {  type = tribesmen  culture = guenoa_culture religion = tunpa_religion size = 2.339 }
+      define_pop  = {  type = peasants  culture = burgundian religion = catholic size = 20.591 }
    }
    pairindi = {
       define_pop  = {  type = tribesmen  culture = guenoa_culture religion = tunpa_religion size = 4.017 }
@@ -14622,6 +14663,8 @@ locations = {
    }
    sm_algyax = {
       define_pop  = {  type = tribesmen  culture = tsimshian_culture religion = dene_totemism size = 0.159 }
+      define_pop  = {  type = tribesmen  culture = haida_culture religion = dene_totemism size = 1.801 }
+      define_pop  = {  type = peasants  culture = haida_culture religion = dene_totemism size = 13.074 }
    }
    nisga_a = {
       define_pop  = {  type = tribesmen  culture = tsimshian_culture religion = dene_totemism size = 0.159 }
@@ -14630,10 +14673,12 @@ locations = {
       define_pop  = {  type = tribesmen  culture = tsimshian_culture religion = dene_totemism size = 0.159 }
    }
    kiis_gwaay = {
-      define_pop  = {  type = tribesmen  culture = haida_culture religion = dene_totemism size = 0.159 }
+      define_pop  = {  type = tribesmen  culture = haida_culture religion = dene_totemism size = 2.826 }
+      define_pop  = {  type = peasants  culture = haida_culture religion = dene_totemism size = 20.276 }
    }
    gwaay_haanas = {
-      define_pop  = {  type = tribesmen  culture = haida_culture religion = dene_totemism size = 0.159 }
+      define_pop  = {  type = tribesmen  culture = haida_culture religion = dene_totemism size = 2.073 }
+      define_pop  = {  type = peasants  culture = haida_culture religion = dene_totemism size = 18.372 }
    }
    k_alii_xkalaan = {
       define_pop  = {  type = tribesmen  culture = tsimshian_culture religion = dene_totemism size = 0.159 }
@@ -14658,15 +14703,21 @@ locations = {
    }
    shtax_heen = {
       define_pop  = {  type = tribesmen  culture = tlingit_culture religion = dene_totemism size = 0.280 }
+      define_pop  = {  type = tribesmen  culture = haida_culture religion = dene_totemism size = 1.480 }
+      define_pop  = {  type = peasants  culture = haida_culture religion = dene_totemism size = 14.724 }
    }
    s_awdaan = {
       define_pop  = {  type = tribesmen  culture = tlingit_culture religion = dene_totemism size = 0.280 }
    }
    hinyaa = {
       define_pop  = {  type = tribesmen  culture = tlingit_culture religion = dene_totemism size = 0.280 }
+      define_pop  = {  type = tribesmen  culture = haida_culture religion = dene_totemism size = 2.458 }
+      define_pop  = {  type = peasants  culture = haida_culture religion = dene_totemism size = 22.560 }
    }
    keex = {
       define_pop  = {  type = tribesmen  culture = tlingit_culture religion = dene_totemism size = 0.280 }
+      define_pop  = {  type = tribesmen  culture = haida_culture religion = dene_totemism size = 1.625 }
+      define_pop  = {  type = peasants  culture = haida_culture religion = dene_totemism size = 12.408 }
    }
    t_aaku = {
       define_pop  = {  type = tribesmen  culture = tlingit_culture religion = dene_totemism size = 0.280 }
@@ -14679,12 +14730,18 @@ locations = {
    }
    xunaa = {
       define_pop  = {  type = tribesmen  culture = tlingit_culture religion = dene_totemism size = 0.280 }
+      define_pop  = {  type = tribesmen  culture = haida_culture religion = dene_totemism size = 2.570 }
+      define_pop  = {  type = peasants  culture = haida_culture religion = dene_totemism size = 14.355 }
    }
    shee_t_ika = {
       define_pop  = {  type = tribesmen  culture = tlingit_culture religion = dene_totemism size = 0.280 }
+      define_pop  = {  type = tribesmen  culture = haida_culture religion = dene_totemism size = 1.778 }
+      define_pop  = {  type = peasants  culture = haida_culture religion = dene_totemism size = 15.622 }
    }
    xutsnoowu = {
       define_pop  = {  type = tribesmen  culture = tlingit_culture religion = dene_totemism size = 0.280 }
+      define_pop  = {  type = tribesmen  culture = haida_culture religion = dene_totemism size = 2.524 }
+      define_pop  = {  type = peasants  culture = haida_culture religion = dene_totemism size = 20.751 }
    }
    gunaaxoo = {
       define_pop  = {  type = tribesmen  culture = tlingit_culture religion = dene_totemism size = 0.280 }

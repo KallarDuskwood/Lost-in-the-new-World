@@ -111,39 +111,39 @@ POT = {
 	color = rgb { 196 157 47 }
 
 	culture_definition = bodewadomik_culture
-	religion_definition = catholic
+	religion_definition = midewiwin_religion
 }
 
 ### Sauk ###
 SAU = {
 	color = rgb { 116 102 212 }
 
-	culture_definition = bodewadomik_culture
-	religion_definition = catholic
+	culture_definition = osaakiiwaki_culture
+	religion_definition = midewiwin_religion
 }
 
 ### Fox ###
 FOX = {
 	color = rgb { 224 181 146 }
 
-	culture_definition = bodewadomik_culture
-	religion_definition = catholic
+	culture_definition = meskwaki_culture
+	religion_definition = midewiwin_religion
 }
 
 ### Ho-Chunk ###
 HCH = {
 	color = rgb { 66 97 71 }
 
-	culture_definition = bodewadomik_culture
-	religion_definition = catholic
+	culture_definition = hocak_culture
+	religion_definition = midewiwin_religion
 }
 
 ### Odawa ###
 ODA = {
 	color = map_odawa
 
-	culture_definition = bodewadomik_culture
-	religion_definition = catholic
+	culture_definition = odawa_culture
+	religion_definition = midewiwin_religion
 }
 
 ### Mexica ###

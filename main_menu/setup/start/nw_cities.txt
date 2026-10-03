@@ -1,20 +1,36 @@
 locations = {
 
     ### Arcadia
-    stadacona = { rank = city town_setup = empty_town }
-    tadoussac = { rank = town town_setup = empty_town }
-    matapedia = { rank = town town_setup = empty_town }
+    stadacona = { rank = city town_setup = settler_town_port }
+    tadoussac = { rank = town town_setup = settler_town_port }
+    matapedia = { rank = town town_setup = settler_town_port }
 
     ### Amazonie
-    ananatuba = { rank = city town_setup = empty_town }
-    kuruaya = { rank = town town_setup = empty_town }
-    arua_amazon = { rank = town town_setup = empty_town }
+    ananatuba = { rank = city town_setup = settler_town_port }
+    kuruaya = { rank = town town_setup = settler_town_port }
+    arua_amazon = { rank = town town_setup = settler_town_port }
 
     ### Jiyu
-    puyallup = { rank = city town_setup = empty_town }
+    puyallup = { rank = city town_setup = japan_city }
+    sklallam = { rank = town town_setup = japan_town }
 
     ### New England German States
-    manhattan = { rank = city town_setup = empty_town }
-    shackamaxon = { rank = city town_setup = empty_town }
-    naumkeag = { rank = city town_setup = empty_town }
+    manhattan = { rank = city town_setup = settler_town_port }
+    shackamaxon = { rank = city town_setup = settler_town_port }
+    naumkeag = { rank = city town_setup = settler_town_port }
+
+    ### Michigan Natives
+    wequetong = { rank = town town_setup = native_town_port }
+
+    ### Edwardia
+    bulbancha = { rank = city town_setup = settler_town_port }
+
+    ### Ireland
+    mayaimi = { rank = city town_setup = settler_town_port }
+
+    ### Haiti
+    jaragua = { rank = city town_setup = settler_town_port }
+
+    ### New Burgundy
+    ituzaingo = { rank = city town_setup = settler_town_port }
 }

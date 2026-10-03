@@ -2,4 +2,12 @@ market_manager = {
 	#Northern America
 	add_market = stadacona
 	add_market = ananatuba
+	add_market = wequetong
+	add_market = manhattan
+	add_market = puyallup
+	add_market = bulbancha
+	add_market = mayaimi
+	add_market = jaragua
+	add_market = ituzaingo
+	add_market = tenochtitlan
 }

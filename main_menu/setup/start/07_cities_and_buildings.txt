@@ -832,7 +832,10 @@ locations = {
    matapedia = { rank = town town_setup = empty_town }
    stadacona = { rank = city town_setup = empty_town }
    tadoussac = { rank = town town_setup = empty_town }
+   naumkeag = { rank = city town_setup = empty_town }
+   manhattan = { rank = city town_setup = empty_town }
    canajoharie = { rank = town }
+   shackamaxon = { rank = city town_setup = empty_town }
    cahokia = { rank = town }
    arua_amazon = { rank = town town_setup = empty_town }
    ananatuba = { rank = city town_setup = empty_town }
@@ -1031,6 +1034,23 @@ locations = {
    puyallup = { rank = city town_setup = empty_town }
 }
 building_manager = {
+   seat_of_cardinal = { tag = PAP level = 1 location = avignon }
+   seat_of_cardinal = { tag = PAP level = 1 location = rome }
+   seat_of_cardinal = { tag = PAP level = 1 location = tivoli }
+   seat_of_cardinal = { tag = PAP level = 1 location = palestrina }
+   seat_of_cardinal = { tag = PAP level = 1 location = velletri }
+   seat_of_cardinal = { tag = FRA level = 1 location = toulouse }
+   seat_of_cardinal = { tag = FRA level = 1 location = bazas }
+   seat_of_cardinal = { tag = FRA level = 1 location = lyon }
+   seat_of_cardinal = { tag = FRA level = 1 location = langres }
+   seat_of_cardinal = { tag = FRA level = 1 location = paris }
+   seat_of_cardinal = { tag = FRA level = 1 location = bourges }
+   seat_of_cardinal = { tag = NRB level = 1 location = narbonne }
+   seat_of_cardinal = { tag = AUX level = 1 location = auxerre }
+   seat_of_cardinal = { tag = NAP level = 1 location = manfredonia }
+   seat_of_cardinal = { tag = NAP level = 1 location = naples }
+   seat_of_cardinal = { tag = PRO level = 1 location = aix_en_provence }
+   seat_of_cardinal = { tag = CAS level = 1 location = cartagena }
    seat_of_cardinal = { tag = PAP level = 1 location = avignon }
    seat_of_cardinal = { tag = PAP level = 1 location = rome }
    seat_of_cardinal = { tag = PAP level = 1 location = tivoli }

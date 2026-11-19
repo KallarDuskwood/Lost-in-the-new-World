@@ -1,0 +1,19 @@
+discovered_regions = {
+    ### North America
+    canada_region
+    caribbean_region
+    east_coast_region
+    great_plains_region
+    mesoamerica_region
+    central_america_region
+    aridoamerica_region
+    alaska_region
+    west_coast_region
+    ### South America
+    colombia_region
+    brazil_region
+    andes_region
+    chaco_region
+    la_plata_region
+
+}

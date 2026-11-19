@@ -1,0 +1,13 @@
+- the game folder in this workspace is just for reference.
+- never change files in the game folder.
+- the game folder files can be overwritten by copying the exact file structure to the AetasMachinarum folder and making changes there.
+- always make changes in the LITNW folder, not the game folder.
+- The LITNW folder acts as a supplement to the base game and can include new files. Always prioritize creating new files unless content inside the files needs to be overwritten.
+- file names are important for the code to run properly
+- always maintain the correct folder structure when adding new files.
+- use the documentation folder as reference and document new content in it
+- the vision.md file is read only and serves as a reference of what this code is supposed to achieve
+- to disable a file it can be copied to the mod folder and emptied out
+- to overwrite entire folders an entry can be made to the "replace_paths" array in the metadata.json file under "game_custom_data" 
+- never edit the logs folder
+- the logs folder may contain error unrelated to the code

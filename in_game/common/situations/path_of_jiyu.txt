@@ -17,7 +17,7 @@ path_of_jiyu = {
         capital ?= {
 			continent = continent:america
 		}
-        has_variable = old_world_colony
+        tag = JIY
     }
 
     on_start = {

@@ -30,6 +30,10 @@ countries = {
 			
 			government = {
 				ruler = random
+
+				reforms = {
+					merchant_republic
+				}
 			}
 
 			country_rank = rank_duchy
@@ -88,6 +92,10 @@ countries = {
 					tribes_allow_gatherings
 					tribes_tribal_registry
 					tribes_respect_tribal_traditions
+				}
+
+				reforms = {
+					asymmetrical_warfare_tactics
 				}
 			}
 
@@ -152,6 +160,10 @@ countries = {
 					partial_yield
 					peasants_allowed_weapons_privilege
 					peasants_autonomous_villages
+				}
+
+				reforms = {
+					local_army_organization
 				}
 			}
 

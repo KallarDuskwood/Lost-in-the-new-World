@@ -1,5 +1,5 @@
 ﻿nw_arcadian = {
-    language = french_dialect
+    language = french_language
 
     color = rgb { 46 0 108 }
 

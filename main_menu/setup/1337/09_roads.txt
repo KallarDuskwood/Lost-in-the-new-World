@@ -1,0 +1,19 @@
+
+road_network = {
+	puyallup = nisqually
+	nisqually = twana
+	twana = sklallam
+	manhattan = hackensack
+	hackensack = raritan
+	raritan = piscopeek
+	piscopeek = assunpink
+	assunpink = shackamaxon
+	manhattan = rippowam
+	rippowam = quinnipiac
+	quinnipiac = nehantuck
+	nehantuck = willimantic
+	willimantic = quinsigamond
+	quinsigamond = assabet
+	assabet = naumkeag
+
+}

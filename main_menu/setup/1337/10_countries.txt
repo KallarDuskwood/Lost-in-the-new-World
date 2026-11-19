@@ -328,7 +328,7 @@ countries = {
 			}
 
 			country_rank = rank_duchy
-			capital = mayaimi
+			capital = manhattan
 
 		}
 
@@ -491,7 +491,7 @@ countries = {
 			}
 
 			country_rank = rank_duchy
-			capital = mayaimi
+			capital = saginaw
 
 		}
 
@@ -549,7 +549,7 @@ countries = {
 			}
 
 			country_rank = rank_duchy
-			capital = mayaimi
+			capital = wabenasibi
 
 		}
 
@@ -607,7 +607,7 @@ countries = {
 			}
 
 			country_rank = rank_duchy
-			capital = mayaimi
+			capital = manitowoc
 
 		}
 
@@ -665,7 +665,7 @@ countries = {
 			}
 
 			country_rank = rank_duchy
-			capital = mayaimi
+			capital = menesetung
 
 		}
 

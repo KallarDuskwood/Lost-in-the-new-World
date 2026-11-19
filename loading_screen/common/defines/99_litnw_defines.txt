@@ -1,0 +1,3 @@
+NGame = {
+	START_DATE = "1497.1.1"
+}

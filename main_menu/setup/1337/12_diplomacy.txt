@@ -1,3 +1,0 @@
-diplomacy_manager = {
-   dependency = { first = JIY second = KBK subject_type = dominion }
-}
